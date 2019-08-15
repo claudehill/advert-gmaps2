@@ -1,0 +1,118 @@
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Special Elite', cursive;
+*/
+
+
+/* body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Serif', serif;
+}  */
+
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: "Playfair Display", Georgia, "Times New Roman", serif; */
+
+  font-family: 'PT Serif', serif;
+  /* font-family: 'Noto Serif', serif;  */
+
+}
+
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.jumbotron-feature {
+  background-image: url('https://source.unsplash.com/1600x900/?technology,computer');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-overlay, .blog-footer-overlay {
+  position: relative;
+  /* max-width: 500px; */
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  /* z-index: 1; */
+}
+
+
+.overlay-blue {
+  background-color: rgba(41,128,185,0.6);
+}
+
+.overlay-black {
+  background-color:rgba(0,0,0,0.4);
+
+}
+
+button[type=submit].btn-block {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  min-height: 50px;
+}
+
+/* footer {
+  max-height: 400px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} */
+
+.footer-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+}
+
+#logo-footer {
+  max-width: auto;
+  max-height: 150px;
+}
+
+#footer-copyright {
+  background-color: #313131;
+  color: #eee;
+}
+
+#footer-copyright a {
+  text-decoration: none;
+}
+
+.white {
+  color: #ffffff;
+  border-top-color: #fff;
+
+}
+
+
+#map {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quote {
+  height: 75px;
+  width: 75px;
+  display: block;
+}

@@ -1,0 +1,57 @@
+
+/*
+Image colors:
+#3974d8
+#4e9fec
+*/
+
+.body-wrapper {
+  /* background-color: #4C9EEA; */
+background-color: #eee;
+}
+
+.jumbotron-contact {
+  /* height: 100px; */
+  background: #3974d8;
+  color: #eee;
+  border-radius: 0px;
+  padding-top: 2rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.jumbotron-contact h1 {
+  font-family: 'Special Elite', cursive;
+  font-weight: 100;
+}
+
+.form-wrapper-contact {
+  width: 100%;
+  /* height: 100%; */
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.contact-img {
+  max-height: auto;
+  width: 100%;
+  border-radius: 50%;
+  /* margin-bottom: 100px; */
+  margin-top: 20%;
+}
+
+#contact-form {
+  margin-bottom: 150px;
+}
+
+#contact-form button {
+  min-height: 50px;
+}
+
+#contact-icon {
+  color: #3974d8;
+}
+
+#contact-form input,
+#contact-form textarea {
+  border: 1px solid #3974d8;
+}
