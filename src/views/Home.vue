@@ -44,7 +44,7 @@
           <Sidebar />
         </div>
 
-        <Comments />
+        <!-- <Comments /> -->
       </main>
     </div>
 

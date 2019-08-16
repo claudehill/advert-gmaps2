@@ -14,63 +14,62 @@
 
     <ul>
       <li>
-        <a href="#">Point 1</a>
+        <a href="#">A Personal Perspective</a>
       </li>
       <li>
-        <a href="#">Point 2</a>
+        <a href="#">Why This Happens</a>
       </li>
       <li>
-        <a href="#">Point 3</a>
+        <a href="#">How to Fix It</a>
+      </li>
+      <li>
+        <a href="#">Where to Find Help</a>
       </li>
     </ul>
 
     <!-- <MapDemo /> -->
 
-    <p>
+    <!-- <p>
       As a restaurateur or other small business owner, few things are more frustrating to your potential
       customers than not knowing how to find the location of your business. If you own a brick-and-mortar
       business, you're in constant competition from big chains. On the internet, you only have a few minutes (at
       best) to capture the attention of your potential clientele before someone else gets it.
     </p>
-    <hr />
+    <hr />-->
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
     <div class="addthis_sharing_toolbox"></div>
-    <p>
+    <!-- <p>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum necessitatibus placeat atque ut
       distinctio ipsam fugit itaque voluptate, voluptatem aliquid saepe quisquam alias magni temporibus.
+    </p>-->
+
+    <p>
+      As a restaurateur or other small business owner with a traditional “brick-and-mortar” business, few things are more frustrating to your potential customers than not knowing how to find the location of your business. On the internet, you only have a few minutes (at
+      best) to capture the attention of your potential clientele before someone else gets it.
+      <br />
+      <br />To illustrate:
     </p>
 
-    <blockquote class="blockquote text-right">
-      <img src="img/quote.png" class="quote float-left" alt />
-      <p
-        class="mb-0"
-      >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer class="blockquote-footer">
-        Someone famous in
-        <cite title="Source Title">Source Title</cite>
-      </footer>
-    </blockquote>
+    <div class="quote-offset">
+      <p>Recently, my spouse and I decided to experiment and try a trendy, local, upscale non-chain restaurant. Since we rarely have evenings where we can enjoy a cozy upscale dinner together, we were both very excited to view the menu and check out the ambiance of the restaurant.</p>
 
-    <p>As a restaurateur or other small business owner with a traditional “brick-and-mortar” business, few things are more frustrating to your potential customers than not knowing how to find the location of your business. To illustrate:</p>
+      <p>After a few minutes of glancing at the menu to see what I might like, I was convinced - I had to check this place out. So, I navigated to the “Contact Us” Page. However, when I tried clicking the map to get driving directions, I was quickly met with the error “This page cannot display Google maps,” followed by a “for Development purposes only” watermark over the map, preventing me from panning, zooming or getting directions from my location.</p>
 
-    <blockquote class="blockquote">
-      <p>Recently, my better half and I decided to experiment and try a trendy, local, non-chain restaurant. Since we rarely have evenings where we can enjoy a cozy upscale dinner together (without kids), we were both very excited to view the menu and check out the ambiance of the restaurant.</p>
-
-      <p>After a few minutes of glancing at the menu to see what I might like, I was convinced. I had to check this place out. So, I navigated to the “Contact Us” page and when I tried clicking the map to get driving directions, I was quickly met with the error “This page cannot display Google maps,” followed by a “for Development purposes only” watermark over the map, preventing me from panning, zooming or getting directions from my location.</p>
+      <div class="img-container">
+        <img src="../assets/img/gmap_error.png" alt srcset />
+      </div>
 
       <p>Needless to say, my enthusiasm turned immediately to frustration. As someone who is “directionally challenged,” Google maps has always provided straightforward, easy to navigate directions. For an upscale restaurant like this to not provide directions (in my opinion) suggested apathy and incompetence.</p>
 
       <p>I began to wonder, “if the restaurant can’t even provide directions, will the same apathy come through with the food?... and what about the service?... is the management even aware of this?” My suspicions gave way to doubt, and my doubt caused me to immediately look for another dining option. Not wanting to risk having a “less-than-exceptional” experience, especially for the upscale price point, I decided to try another restaurant.</p>
-    </blockquote>
-Most customers will not reveal their frustrations with the level of transparency described above, so it is critical that nothing separates you from your ability to gain new customers - including your own website.
-    This is especially true if your restaurant concept, core product offering or service is geared toward upscale clientele. As evidence continues to mount that we are heading into a deep recession, the competition for your client base will continue to grow. Having clear directions to your restaurant or business, coupled with a good marketing strategy that fosters both loyalty and growth will help you remain profitable in any economic climate.
+    </div>
     <p>
-      Etiam porta
-      <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet
-      fermentum. Aenean lacinia bibendum nulla sed consectetur.
+    Most customers will not reveal their frustrations with the level of transparency described above, so it is critical that nothing separates you from your ability to gain new customers - including your own website.
+    This is especially true if your restaurant concept, core product offering or service is geared toward upscale clientele. As evidence continues to mount that we are heading into a deep recession, the competition for your client base will continue to grow. Having clear directions to your restaurant or business, coupled with a good marketing strategy that fosters both loyalty and growth will help you remain profitable in any economic climate.
     </p>
+    
 
-    <h2>An H2 Heading</h2>
+    <h3>Why This Happens</h3>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vitae alias labore facilis nostrum
       veniam, voluptatem commodi, necessitatibus, maiores quia provident eum.
@@ -123,4 +122,20 @@ export default {
 </script>
 
 <style scoped>
+.blog-post {
+  color: #4e4e4e;
+}
+
+.quote-offset p {
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+.img-container img {
+  display: block;
+  margin: auto;
+}
 </style>
