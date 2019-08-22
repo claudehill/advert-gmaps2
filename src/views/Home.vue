@@ -59,17 +59,24 @@
   /* color: #17a2b8; */
 }
 .btn-outline-info {
-  color: #3974d8;
-  /* color: #fff; */
-  border-color: #3974d8;
+  /* color: #3974d8;
+  border-color: #3974d8; */
+  color: #17a2b8;
+  border-color: #17a2b8;
   border-radius: 20px;
   height: 40px;
 }
 
 .btn-outline-info:hover {
   color: #fff;
-  background-color: #3974d8;
+  background-color: #17a2b8;
 }
+
+/*
+
+    color: #17a2b8;
+    border-color: #17a2b8;.blue
+*/
 
 .btn-round {
   width: 60px;

@@ -13,35 +13,25 @@
     <h3>Executive Summary</h3>
 
     <ul>
-      <li>
-        <a href="#">A Personal Perspective</a>
+      <li>    
+        Potential customers are skeptical of restaurants and other small businesses when they see a Google Maps error message on the website.
       </li>
       <li>
-        <a href="#">Why This Happens</a>
+        If your small business website was created prior to 2016 and has an embedded Google Map, you may receive this error due to changes in Google Maps pricing structure.
+      </li>
+
+      <li>
+        For tech-savvy small-business owners, there are 4 steps to fixing the problem.
       </li>
       <li>
-        <a href="#">How to Fix It</a>
-      </li>
-      <li>
-        <a href="#">Where to Find Help</a>
+        For non-tech savvy small-business owners, it is recommended to have this type of work outsourced.
       </li>
     </ul>
 
-    <!-- <MapDemo /> -->
-
-    <!-- <p>
-      As a restaurateur or other small business owner, few things are more frustrating to your potential
-      customers than not knowing how to find the location of your business. If you own a brick-and-mortar
-      business, you're in constant competition from big chains. On the internet, you only have a few minutes (at
-      best) to capture the attention of your potential clientele before someone else gets it.
-    </p>
-    <hr />-->
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <hr />
     <div class="addthis_sharing_toolbox"></div>
-    <!-- <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum necessitatibus placeat atque ut
-      distinctio ipsam fugit itaque voluptate, voluptatem aliquid saepe quisquam alias magni temporibus.
-    </p>-->
+
+    <h3 class="pt-4 pb-2">A Personal Perspective</h3>
 
     <p>
       As a restaurateur or other small business owner with a traditional “brick-and-mortar” business, few things are more frustrating to your potential customers than not knowing how to find the location of your business. On the internet, you only have a few minutes (at
@@ -64,10 +54,16 @@
       <p>I began to wonder, “if the restaurant can’t even provide directions, will the same apathy come through with the food?... and what about the service?... is the management even aware of this?” My suspicions gave way to doubt, and my doubt caused me to immediately look for another dining option. Not wanting to risk having a “less-than-exceptional” experience, especially for the upscale price point, I decided to try another restaurant.</p>
     </div>
     <p>
-    Most customers will not reveal their frustrations with the level of transparency described above, so it is critical that nothing separates you from your ability to gain new customers - including your own website.
-    This is especially true if your restaurant concept, core product offering or service is geared toward upscale clientele. As evidence continues to mount that we are heading into a deep recession, the competition for your client base will continue to grow. Having clear directions to your restaurant or business, coupled with a good marketing strategy that fosters both loyalty and growth will help you remain profitable in any economic climate.
+      Most customers will not reveal their frustrations with the level of transparency described above, so it is critical that nothing separates you from your ability to gain new customers - including your own website.
+      This is especially true if your restaurant concept, core product offering or service is geared toward upscale clientele.
     </p>
-    
+
+    <p>
+      As
+      <a
+        href="https://www.forbes.com/sites/robisbitts2/2019/04/09/recession-looming-yup/#3284fe803b7a/"
+      >evidence continues to mount that we are heading into a deep recession</a>, the competition for your client base will continue to grow. Having clear directions to your restaurant or business, coupled with a good marketing strategy that fosters both loyalty and growth will help you remain profitable in any economic climate.
+    </p>
 
     <h3>Why This Happens</h3>
     <p>

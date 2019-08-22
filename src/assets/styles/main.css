@@ -23,16 +23,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-p {
+p, ul, li {
   font-family: 'Lato', sans-serif;
   font-size: 1.2rem;
   line-height: 1.5;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .jumbotron-feature {
   background-image: url('https://source.unsplash.com/1600x900/?technology,computer');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.lead {
+  color: #fff !important;
 }
 
 .img-overlay, .blog-footer-overlay {

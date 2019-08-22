@@ -7,10 +7,10 @@
               <i class="fa fa-quote-left fa-2x"></i>
             </span> Help! ... the Directions to my Business Says "This Page Can't Load Google Maps Correctly"
           </h1>
-          <!-- <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently -->
-          <!-- about what’s most interesting in this post’s contents.</p> -->
+          <p class="lead pt-4 my-3"> ... seen this error?  Continue reading.</p>
           <p class="lead mb-0">
-            <a href="#" class="text-white font-weight-bold">Continue reading...</a>
+            <!-- <a href="#" class="text-white font-weight-bold">Continue reading...</a> -->
+            <span><i class="fa fa-chevron-down fa-2x"></i></span>
           </p>
         </div>
       </div>
