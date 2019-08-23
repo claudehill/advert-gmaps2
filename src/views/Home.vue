@@ -27,15 +27,13 @@
 
       <JumbotronMain />
 
-      <!-- <FeaturedPost /> -->
-
       <main role="main" class="container">
         <div class="row">
           <div class="col-md-8 blog-main">
             <h3 class="pb-4 mb-4 font-italic border-bottom blue">
               <span class>
                 <i class="fa fa-microphone"></i>
-              </span> From the Studio...
+              </span> From our Design Team...
             </h3>
 
             <ContentMain />
@@ -43,7 +41,7 @@
 
           <Sidebar />
         </div>
-
+        <FeaturedPost />
         <!-- <Comments /> -->
       </main>
     </div>

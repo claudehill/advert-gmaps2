@@ -5,27 +5,20 @@
       Maps
       Correctly"
     </h2>
-    <p class="blog-post-meta">
+    <!-- <p class="blog-post-meta">
       January 1, 2099 by
       <a href="#">Claude</a>
-    </p>
+    </p>-->
+    <Author />
 
     <h3>Executive Summary</h3>
 
     <ul>
-      <li>    
-        Potential customers are skeptical of restaurants and other small businesses when they see a Google Maps error message on the website.
-      </li>
-      <li>
-        If your small business website was created prior to 2016 and has an embedded Google Map, you may receive this error due to changes in Google Maps pricing structure.
-      </li>
+      <li>Potential customers are skeptical of restaurants and other small businesses when they see a Google Maps error message on the website.</li>
+      <li>If your small business website was created prior to 2016 and has an embedded Google Map, you may receive this error due to changes in Google Maps pricing structure.</li>
 
-      <li>
-        For tech-savvy small-business owners, there are 4 steps to fixing the problem.
-      </li>
-      <li>
-        For non-tech savvy small-business owners, it is recommended to have this type of work outsourced.
-      </li>
+      <li>For tech-savvy small-business owners, there are 4 steps to fixing the problem.</li>
+      <li>For non-tech savvy small-business owners, it is recommended to have this type of work outsourced.</li>
     </ul>
 
     <hr />
@@ -65,42 +58,92 @@
       >evidence continues to mount that we are heading into a deep recession</a>, the competition for your client base will continue to grow. Having clear directions to your restaurant or business, coupled with a good marketing strategy that fosters both loyalty and growth will help you remain profitable in any economic climate.
     </p>
 
-    <h3>Why This Happens</h3>
+    <h2>Why You're Seeing This Google Maps Error on your Small Business Website</h2>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vitae alias labore facilis nostrum
-      veniam, voluptatem commodi, necessitatibus, maiores quia provident eum.
+      On June 22, 2016,
+      <a
+        href="https://developers.googleblog.com/2018/05/introducing-google-maps-platform.html"
+        target="_blank"
+      >Google announced</a> that
+      <a
+        href="https://cloud.google.com/blog/products/maps-platform/building-for-scale-updates-to-google/"
+        target="_blank"
+      >they would be removing keyless API usage (more on that later)</a>. Additional changes came on June 11, 2018, when Google announced that users would “ … need a valid API key and a Google Cloud Platform billing account to access our core products,” which, as you might have guessed, included Google Maps.
     </p>
 
-    <h3>An H3 Sub-Heading</h3>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim illo ipsam quos ullam ut vel qui quasi
-      velit possimus deserunt commodi, amet tenetur eius blanditiis.
-    </p>
-    <pre><code>Example Code block</code></pre>
-    <p>
-      Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce
-      dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
-    </p>
-    <h3>Sub-heading</h3>
+    <p>The net effect of these changes have caused major headaches for small business owners who do not keep their websites maintained. Why? Well, as a small business web design and development consultant for many years, it has been my experience that the mindset of small business owners is such that they do NOT view their website as something that needs continual investment. They view it as a static asset; that is, “just build me a website and it’ll run forever.” This mistaken assumption can prove to be very costly.</p>
+    <p>For example, many business owners have contacted me because they've experienced disruption in sales due to Wordpress extensions being so outdated that they become unstable. They incorrectly assume that once the Wordpress site is up and running, no other action is needed.</p>
+
+    <p>In the case of Google Maps, both the removal of keyless API usage and the requirement of a Google Cloud billing account means that if you used the Google Maps ecosystem a few years ago but didn’t make any updates to your account and the code that utilizes these changes, your site won’t work properly.</p>
+
+    <!-- TODO: Add VIDEO??? image and link, credit -->
+
+    <h3 class="my-4">A Little Background Info ... What the heck is an API Anyway?</h3>
+    <p>First of all, what is an API? API is an acronym that stands for Application Programmer Interface. Put simply, an API allows one piece of software (the “caller”) to request and obtain data from another piece of software without knowing the internal mechanisms of the system providing that data. This is done through a set of rules called HTTP (or, HyperText Transfer Protocol).</p>
+    <p>As long as the calling system requests the data in the right way, the system providing the data will continue to send the data that was requested. Problems arise, however, when the system supplying the data changes the rules (called parameters) of how to obtain the data.</p>
+
+    <p>In 2016, when Google began requiring an API key to access Google Maps, this was actually an additional, mandatory parameter that was required to obtain the data - i.e., the map and/or driving directions to your place of business. Without it, the previous request became invalid, thus resulting in an error on your website without this parameter.</p>
+
+    <h3>Why Do I Need an API Key?</h3>
+
+    <p>To help understand why certain data providers require API keys, it is helpful to examine the problem from another perspective. An API key uniquely identifies both the user and/or application that wants to access the data. Most companies who provide value-added services in the form of API’s want to ensure continuity and preserve the integrity of their systems.</p>
+    <p>For Data Providers like Google, knowing who is requesting their data and how much data each user is consuming helps them to:</p>
+
+    <ul>
+      <li>Prevent excessive use - resulting in DoS (Denial of Service) for other users</li>
+      <li>Charge users appropriately based on the amount of data (similar to utility companies)</li>
+      <li>Quickly identify suspicious activity</li>
+    </ul>
+
+    <p>Google is no exception. By requiring users to sign up for an API key and also Google Cloud (which requires billing methods enabled) they are able to charge money in exchange for displaying a Map or Driving Directions to your business on your website.</p>
+
+    <p>To see this in action, a demo is provided below for you to check out.</p>
+
+    <h3>Google Maps Interactive Demo</h3>
+
+    <p>To see a live demo of Google Maps, click the button and accept permissions to see your location. The map will show your global coordinates in real-time by calling the Google Maps API.</p>
 
     <MapDemo />
 
-    <p>
-      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia
-      bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac
-      cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-    </p>
-    <ul>
-      <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-      <li>Donec id elit non mi porta gravida at eget metus.</li>
-      <li>Nulla vitae elit libero, a pharetra augue.</li>
-    </ul>
-    <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-    <ol>
-      <li>Vestibulum id ligula porta felis euismod semper.</li>
-      <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-      <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-    </ol>
+    <h3>Deciding which Google Maps APIs are Required for you Small Business</h3>
+
+    <p>If you currently have Google Maps API errors (such as the one listed above) on your website, this may be a good time to stop and re-evaluate which Google APIs are truly needed in order to not only fix the problem, but to best direct your customers to your place of business.</p>
+    <p>Listed below is a brief summary of the various Google Maps APIs that are offered, and a brief explanation of the role each API plays in directing customers to your place of business.</p>
+
+    <h5>Google Maps API</h5>
+
+    <p>The Google Maps API is the one that users are probably most familiar with. By sending a request to a Google server, a visible map is then displayed on the web page that shows the user’s current location. In addition to the map itself, markers can be placed on the map which show visual points of interest, or other important details in relation to the user's current location.</p>
+
+    <h5>Google Geocoding API</h5>
+
+    <p>The Google Geocoding API is one that is probably less well-known to users, but even more important from a machine standpoint. The Google Geocoding API takes a human-readable address and converts it to a set of latitude and longitude coordinates.</p>
+    <p>The Google Geocoding API can also do the reverse process or, more commonly, what is known as reverse geocoding. Reverse geocoding is the process of taking a set of coordinates such as latitude and longitude and converting them into a human readable address.</p>
+    <p>In software applications where the end-user may be traveling, both forward and reverse Geolocation API calls are generally required to process origin and destination addresses versus a user's location in real time.</p>
+
+    <h5>Google Directions API</h5>
+
+    <p>Finally, the Google directions API utilizes a combination of both the Google Maps API as well as the Google Geocoding API. This API is used for calculating and displaying directions in real-time for driving, cycling, Transit, or walking to or from a given location.</p>
+    <p>The Google directions API comes in two flavors. There is a basic request and there is an advanced request. The advanced request includes additional features not present on the basic request such as real-time traffic monitoring, as well as the ability to add multiple waypoints.</p>
+    <p>However, the advanced directions API does not come without additional cost. As of the time of this writing the cost for the basic Google directions API cost 0005 whereas the cost for the advanced Google directions API cost 0010 per request. Well this may not seem like a lot of money on the surface, when multiple users begin requesting APIs multiple times in a very short time span this can become quite costly for the person paying for the API meaning, you the business owner.</p>
+    <p>So you need to be selective when choosing which APIs you want to utilize for your website. Carefully weigh the cost of each API that you need vs. the benefit that each API will provide to both your end-users and to your business as a whole. doing this will ensure that you are keeping costs in while maximizing the benefits to your customers - thus, ensuring profitability.</p>
+
+    <h3>Adding Google Maps to your Website Using Google Maps APIs</h3>
+
+    <p>After you've decided which APIs will work best for your restaurant or small business, its time to get to work. This section will be split up into 2 sections - Wordpress users, and non-Wordpress users. Rather than go through each step one-by-one, links to videos are provided below to help you get started. </p>
+
+
+<p class="quote-offset">
+
+      <span><i class="fa fa-exclamation-circle fa-2x red"></i></span> NOTE: The content provided below is NOT affiliated with this website, its owners, affiliates, assigns or representatives. The owners of this website assume NO responsibility or liability for the video content provided.
+
+</p>
+
+<h4>Wordpress Users</h4>
+
+
+<h4>Non-Wordpress Users</h4>
+
+
     <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
     <h4>End of Content Main ...</h4>
   </div>
@@ -108,11 +151,13 @@
 
 <script>
 import MapDemo from "@/components/MapDemo.vue";
+import Author from "@/components/Author.vue";
 
 export default {
   name: "ContentMain",
   components: {
-    MapDemo
+    MapDemo,
+    Author
   }
 };
 </script>
@@ -122,7 +167,7 @@ export default {
   color: #4e4e4e;
 }
 
-.quote-offset p {
+.quote-offset {
   text-align: justify;
   padding-left: 10%;
   padding-right: 10%;
@@ -133,5 +178,9 @@ export default {
 .img-container img {
   display: block;
   margin: auto;
+}
+
+.red {
+  color: red;
 }
 </style>
