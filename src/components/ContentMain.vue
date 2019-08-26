@@ -1,17 +1,19 @@
 <template>
   <div class="blog-post">
-    <h2 class="blog-post-title my-3 mb-4">
-      When the Directions to your Business Says "This Page Can't Load Google
-      Maps
-      Correctly"
-    </h2>
-    <!-- <p class="blog-post-meta">
-      January 1, 2099 by
-      <a href="#">Claude</a>
-    </p>-->
-    <Author />
+    <div class="row">
+      <div class="col-md-2">
+        <img src="../assets/img/g-maps-logo.png" alt class="img img-responsive img-logo" />
+      </div>
+      <div class="col-md-10">
+        <h2 class="blog-post-title my-3 mb-4">
+          When the Directions to your Business Says "This Page Can't Load Google
+          Maps
+          Correctly"
+        </h2>
+      </div>
+    </div>
 
-    <h3>Executive Summary</h3>
+    <h3 class="text-center">Executive Summary</h3>
 
     <ul>
       <li>Potential customers are skeptical of restaurants and other small businesses when they see a Google Maps error message on the website.</li>
@@ -20,6 +22,8 @@
       <li>For tech-savvy small-business owners, there are 4 steps to fixing the problem.</li>
       <li>For non-tech savvy small-business owners, it is recommended to have this type of work outsourced.</li>
     </ul>
+
+    <Author />
 
     <hr />
     <div class="addthis_sharing_toolbox"></div>
@@ -38,8 +42,9 @@
 
       <p>After a few minutes of glancing at the menu to see what I might like, I was convinced - I had to check this place out. So, I navigated to the “Contact Us” Page. However, when I tried clicking the map to get driving directions, I was quickly met with the error “This page cannot display Google maps,” followed by a “for Development purposes only” watermark over the map, preventing me from panning, zooming or getting directions from my location.</p>
 
-      <div class="img-container">
+      <div class="img-container text-center pb-4">
         <img src="../assets/img/gmap_error.png" alt srcset />
+        <small>Google and the Google logo are registered trademarks of Google LLC, used with permission.</small>
       </div>
 
       <p>Needless to say, my enthusiasm turned immediately to frustration. As someone who is “directionally challenged,” Google maps has always provided straightforward, easy to navigate directions. For an upscale restaurant like this to not provide directions (in my opinion) suggested apathy and incompetence.</p>
@@ -58,7 +63,7 @@
       >evidence continues to mount that we are heading into a deep recession</a>, the competition for your client base will continue to grow. Having clear directions to your restaurant or business, coupled with a good marketing strategy that fosters both loyalty and growth will help you remain profitable in any economic climate.
     </p>
 
-    <h2>Why You're Seeing This Google Maps Error on your Small Business Website</h2>
+    <h2 class="text-center">Why You're Seeing This Google Maps Error on your Small Business Website</h2>
     <p>
       On June 22, 2016,
       <a
@@ -76,15 +81,17 @@
 
     <p>In the case of Google Maps, both the removal of keyless API usage and the requirement of a Google Cloud billing account means that if you used the Google Maps ecosystem a few years ago but didn’t make any updates to your account and the code that utilizes these changes, your site won’t work properly.</p>
 
-    <!-- TODO: Add VIDEO??? image and link, credit -->
 
-    <h3 class="my-4">A Little Background Info ... What the heck is an API Anyway?</h3>
+    <h3 class="text-center">
+      A Little Background Info ...
+      <br />What the heck is an API Anyway?
+    </h3>
     <p>First of all, what is an API? API is an acronym that stands for Application Programmer Interface. Put simply, an API allows one piece of software (the “caller”) to request and obtain data from another piece of software without knowing the internal mechanisms of the system providing that data. This is done through a set of rules called HTTP (or, HyperText Transfer Protocol).</p>
     <p>As long as the calling system requests the data in the right way, the system providing the data will continue to send the data that was requested. Problems arise, however, when the system supplying the data changes the rules (called parameters) of how to obtain the data.</p>
 
     <p>In 2016, when Google began requiring an API key to access Google Maps, this was actually an additional, mandatory parameter that was required to obtain the data - i.e., the map and/or driving directions to your place of business. Without it, the previous request became invalid, thus resulting in an error on your website without this parameter.</p>
 
-    <h3>Why Do I Need an API Key?</h3>
+    <h3 class="text-center">Why Do I Need an API Key?</h3>
 
     <p>To help understand why certain data providers require API keys, it is helpful to examine the problem from another perspective. An API key uniquely identifies both the user and/or application that wants to access the data. Most companies who provide value-added services in the form of API’s want to ensure continuity and preserve the integrity of their systems.</p>
     <p>For Data Providers like Google, knowing who is requesting their data and how much data each user is consuming helps them to:</p>
@@ -99,53 +106,93 @@
 
     <p>To see this in action, a demo is provided below for you to check out.</p>
 
-    <h3>Google Maps Interactive Demo</h3>
+    <h3 class="text-center">Google Maps Interactive Demo</h3>
 
     <p>To see a live demo of Google Maps, click the button and accept permissions to see your location. The map will show your global coordinates in real-time by calling the Google Maps API.</p>
 
     <MapDemo />
 
-    <h3>Deciding which Google Maps APIs are Required for you Small Business</h3>
+    <h3 class="text-center">Deciding which Google Maps APIs are Required for your Small Business</h3>
 
     <p>If you currently have Google Maps API errors (such as the one listed above) on your website, this may be a good time to stop and re-evaluate which Google APIs are truly needed in order to not only fix the problem, but to best direct your customers to your place of business.</p>
     <p>Listed below is a brief summary of the various Google Maps APIs that are offered, and a brief explanation of the role each API plays in directing customers to your place of business.</p>
 
-    <h5>Google Maps API</h5>
+    <h4 class="text-center">Google Maps API</h4>
 
     <p>The Google Maps API is the one that users are probably most familiar with. By sending a request to a Google server, a visible map is then displayed on the web page that shows the user’s current location. In addition to the map itself, markers can be placed on the map which show visual points of interest, or other important details in relation to the user's current location.</p>
 
-    <h5>Google Geocoding API</h5>
+    <h4 class="text-center">Google Geocoding API</h4>
 
     <p>The Google Geocoding API is one that is probably less well-known to users, but even more important from a machine standpoint. The Google Geocoding API takes a human-readable address and converts it to a set of latitude and longitude coordinates.</p>
     <p>The Google Geocoding API can also do the reverse process or, more commonly, what is known as reverse geocoding. Reverse geocoding is the process of taking a set of coordinates such as latitude and longitude and converting them into a human readable address.</p>
     <p>In software applications where the end-user may be traveling, both forward and reverse Geolocation API calls are generally required to process origin and destination addresses versus a user's location in real time.</p>
 
-    <h5>Google Directions API</h5>
+    <h4 class="text-center">Google Directions API</h4>
 
     <p>Finally, the Google directions API utilizes a combination of both the Google Maps API as well as the Google Geocoding API. This API is used for calculating and displaying directions in real-time for driving, cycling, Transit, or walking to or from a given location.</p>
     <p>The Google directions API comes in two flavors. There is a basic request and there is an advanced request. The advanced request includes additional features not present on the basic request such as real-time traffic monitoring, as well as the ability to add multiple waypoints.</p>
-    <p>However, the advanced directions API does not come without additional cost. As of the time of this writing the cost for the basic Google directions API cost 0005 whereas the cost for the advanced Google directions API cost 0010 per request. Well this may not seem like a lot of money on the surface, when multiple users begin requesting APIs multiple times in a very short time span this can become quite costly for the person paying for the API meaning, you the business owner.</p>
+    <p>However, the advanced directions API does not come without additional cost. As of the time of this writing the cost for the basic Google directions API cost 0005 whereas the cost for the advanced Google directions API cost 0010 per request. Well this may not seem like a lot of money on the surface, when multiple users begin requesting APIs multiple times in a very short time span this can become quite costly for the person paying for the API - meaning, you the business owner.</p>
     <p>So you need to be selective when choosing which APIs you want to utilize for your website. Carefully weigh the cost of each API that you need vs. the benefit that each API will provide to both your end-users and to your business as a whole. doing this will ensure that you are keeping costs in while maximizing the benefits to your customers - thus, ensuring profitability.</p>
 
-    <h3>Adding Google Maps to your Website Using Google Maps APIs</h3>
+    <h3 class="text-center">Adding Google Maps to your Website Using Google Maps APIs</h3>
 
-    <p>After you've decided which APIs will work best for your restaurant or small business, its time to get to work. This section will be split up into 2 sections - Wordpress users, and non-Wordpress users. Rather than go through each step one-by-one, links to videos are provided below to help you get started. </p>
+    <p>After you've decided which APIs will work best for your restaurant or small business, its time to get to work. This section will be split up into 2 sections - Wordpress users, and non-Wordpress users. Rather than go through each step one-by-one, links to videos are provided below to help you get started.</p>
 
+    <p class="quote-offset">
+      <span>
+        <i class="fa fa-exclamation-circle fa-2x red"></i>
+      </span>
+      NOTE: The content provided below is NOT affiliated with this website, its owners, affiliates, assigns or representatives. The owners of this website assume NO responsibility or liability for the video content provided.
+    </p>
 
-<p class="quote-offset">
+    <h4 class="text-center">Wordpress Users</h4>
 
-      <span><i class="fa fa-exclamation-circle fa-2x red"></i></span> NOTE: The content provided below is NOT affiliated with this website, its owners, affiliates, assigns or representatives. The owners of this website assume NO responsibility or liability for the video content provided.
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 offset-1">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/PKdu_Y0xaIg"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <h4 class="text-center">Non-Wordpress Users</h4>
 
-</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 offset-1">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/9CY0V0JAgNU"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
 
-<h4>Wordpress Users</h4>
+    <h3 class="text-center">In Conclusion</h3>
 
+    <p>
+      We hope you found the preceeding information useful. As a final consideration, ask yourself ...
+      <em>"would my time be best spent designing a website and fixing errors, or building up my restaurant or small business?"</em>
+    </p>
 
-<h4>Non-Wordpress Users</h4>
+    <p>The point here, is that we often advise small business owners who are NOT tech savvy to simply stick to what they're good at.</p>
+    <p>
+      If the information provided in this post seems too much to take on yourself, it is best to outsource the work to a skilled web designer / developer who understands what is needed and can get you up and running quickly. At
+      <a href="//mainavenuedesign.com/">Main Avenue Design co.</a> , we've been helping restaurants and small businesses with problems like this since 2011.
+    </p>
+    <p>If you need us, we're here for you.</p>
 
-
-    <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-    <h4>End of Content Main ...</h4>
+    <h5 class="text-center">End of Article.</h5>
   </div>
 </template>
 
@@ -180,7 +227,27 @@ export default {
   margin: auto;
 }
 
+.img-logo {
+  max-width: 100px;
+  max-height: auto;
+  margin-top: 40%;
+  margin-bottom: auto;
+}
+
 .red {
   color: red;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 </style>

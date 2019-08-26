@@ -16,7 +16,7 @@
       </button>
     </div>
       <div class="card-footer text-muted text-center">
-    Footer text
+    {{outputMessage}}
   </div>
   </div>
 </template>
@@ -32,6 +32,7 @@ export default {
       latitude: "",
       longitude: "",
       msg: "",
+      outputMessage: "Demo not started.",
       msgLoadMap: "Click the button below to display a map of your location",
       msgLoadErr: "An error occured. Please check your device or browser settings."
     };
@@ -45,10 +46,12 @@ export default {
       this.latitude = position.coords.latitude;
       this.longitude = position.coords.longitude;
       this.showMap(this.latitude, this.longitude);
+      this.outputMessage = "Demo completed successfully."
     },
 
     geoErr: function(error) {
       console.log("error occured ... ", error);
+      this.outputMessage = "Unable to complete demo."
     },
     showMap: function(lat, lng) {
       const element = this.$el.querySelector("#google-map");
@@ -60,7 +63,7 @@ export default {
       const marker = new google.maps.Marker({
         position: { lat: this.latitude, lng: this.longitude },
         map: map,
-        title: "Your approximate location - as seen from Google Maps"
+        title: "Your approximate location - as seen from Google Maps",
       });
     }
   },

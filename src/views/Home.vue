@@ -30,9 +30,9 @@
       <main role="main" class="container">
         <div class="row">
           <div class="col-md-8 blog-main">
-            <h3 class="pb-4 mb-4 font-italic border-bottom blue">
+            <h3 class="pb-4 mb-4 border-bottom dark-grey blog-header-font" style="font-size:2rem;">
               <span class>
-                <i class="fa fa-microphone"></i>
+                <i class="fa fa-microphone teal"></i>
               </span> From our Design Team...
             </h3>
 
@@ -54,7 +54,11 @@
 @import "../assets/styles/blog.css";
 .blue {
   color: #3974d8;
-  /* color: #17a2b8; */
+  
+}
+
+.teal {
+  color: #17a2b8;
 }
 .btn-outline-info {
   /* color: #3974d8;

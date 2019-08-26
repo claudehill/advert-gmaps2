@@ -33,16 +33,11 @@ ul {
     list-style-type: square;
 }
 
-li {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.jumbotron-feature {
-  background-image: url('https://source.unsplash.com/1600x900/?technology,computer');
+/* .jumbotron-feature {
+  background-image: url('https://source.unsplash.com/1600x900/?programming,computer');
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
 .lead {
   color: #fff !important;
@@ -66,6 +61,11 @@ li {
 
 .overlay-blue {
   background-color: rgba(41,128,185,0.6);
+
+}
+
+.overlay-teal {
+    background-color: rgba(23, 162, 184, 0.6);
 }
 
 .overlay-black {

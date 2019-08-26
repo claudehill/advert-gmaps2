@@ -11,11 +11,11 @@
         </div>
 
         <div class="author-info col-md-9">
-         <span class="posted">Posted: January 1, 2099</span>  <br>
+         <span class="posted">Posted: </span>January 1, 2099  <br>
          <hr class="dark">
           By: <a href="#">Edwin C.</a> <br>
           <em>Director, Small Business Outreach</em>  <br> 
-          Main Avenue Design co.
+         <a href="//mainavenuedesign.com/" target="_blank"> Main Avenue Design co.</a>
         </div>
       </div>
     </div>

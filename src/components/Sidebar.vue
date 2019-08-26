@@ -23,7 +23,7 @@
           scrolling="no"
           border="0"
           marginwidth="0"
-          style="margin-left:15px;border:none;"
+          style="border:none;"
           frameborder="0"
         ></iframe>
       </div>
@@ -77,10 +77,12 @@ export default {
   color: #c4c4c4;
 }
 
-#amz iframe {
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* margin-left: 20px; */
-  /* margin-right: auto; */
+.ad-container {
+  margin-left: 20px;
+}
+
+.ad-container iframe {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 </style>

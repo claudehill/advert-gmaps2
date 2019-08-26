@@ -1,6 +1,6 @@
 <template>
       <div class="jumbotron jumbotron-feature p-4 p-md-5 text-white rounded bg-dark img-overlay">
-        <div class="project-overlay overlay-blue"></div>
+        <div class="project-overlay overlay-teal"></div>
         <div class="col-md-8 px-0">
           <h1 class="display-4 font-italic">
             <span>
@@ -23,6 +23,12 @@
 </script>
 
 <style scoped>
+
+.jumbotron-feature {
+  background-image: url('https://source.unsplash.com/1600x900/?programming,computer');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .jumbotron {
   height: 400px !important;
