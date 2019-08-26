@@ -42,7 +42,7 @@
           <Sidebar />
         </div>
         <FeaturedPost />
-        <!-- <Comments /> -->
+        <Comments />
       </main>
     </div>
 
@@ -98,7 +98,7 @@ import JumbotronMain from "@/components/JumbotronMain.vue";
 import FeaturedPost from "@/components/FeaturedPost.vue";
 import MapDemo from "@/components/MapDemo.vue";
 import Sidebar from "@/components/Sidebar.vue";
-// import Comments from "@/components/Comments.vue";
+import Comments from "@/components/Comments.vue";
 
 // require('../assets/js/geo')
 
@@ -108,7 +108,7 @@ export default {
     HelloWorld,
     ContentMain,
     Footer,
-    // Comments,
+    Comments,
     JumbotronMain,
     FeaturedPost,
     MapDemo,
