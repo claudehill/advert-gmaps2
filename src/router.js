@@ -36,9 +36,19 @@ export default new Router({
       component: () => import( './views/About.vue' )
     },
     {
+      path: '/contact-us',
+      name: 'contact-us',
+      component: () => import( /*webpackChunkName: "contact-us" */ './views/Contact-Subscribe.vue' )
+    },
+    {
       path: '/subscribe',
       name: 'subscribe',
       component: () => import(/* webpackChunkName: "subscribe" */ './views/Subscribe.vue')
+    },
+    {
+      path: '/subscribe-to',
+      name: 'subscribe-to',
+      component: () => import( /* webpackChunkName: "subscribe-to" */ './views/Contact-Subscribe.vue' )
     },
     {
       path: '/confirm',

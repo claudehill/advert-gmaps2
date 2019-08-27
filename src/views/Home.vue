@@ -91,7 +91,7 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+
 import ContentMain from "@/components/ContentMain.vue";
 import Footer from "@/components/Footer.vue";
 import JumbotronMain from "@/components/JumbotronMain.vue";
@@ -105,7 +105,6 @@ import Comments from "@/components/Comments.vue";
 export default {
   name: "home",
   components: {
-    HelloWorld,
     ContentMain,
     Footer,
     Comments,
