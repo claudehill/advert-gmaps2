@@ -114,7 +114,8 @@ export default {
 <style scoped>
 input:focus,
 textarea:focus {
-  border: 2px solid;
+  /* border: 2px solid #3974d0; */
+  border: 2px solid #17a2b8;
   background: transparent;
   color: #cecece;
 }
@@ -123,13 +124,15 @@ input,
 textarea,
 span.input-group-text {
   /* border: none !important; */
-  border: 2px solid;
+  /* border: 2px solid #3974d0; */
+  border: 2px solid #17a2b8;
   background: transparent;
   color: #cecece;
 }
 
 span.input-group-text {
-  border: 2px solid #3974d0;
+  /* border: 2px solid #3974d0; */
+  border: 2px solid #17a2b8;
 }
 
 label,

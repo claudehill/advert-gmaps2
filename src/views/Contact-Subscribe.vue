@@ -33,10 +33,10 @@ export default {
   },
   methods: {
     isContactForm() {
-      return this.$route.path == "/contact-us"
+      return this.$route.path == "/contact-us" || this.$route.path == "/contact"
     },
     isSubscribeForm() {
-      return this.$route.path == "/subscribe-to"
+      return this.$route.path == "/subscribe-to" || this.$route.path == "subscribe"
     }
   }
 };

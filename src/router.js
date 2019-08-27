@@ -2,7 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Adblock from './views/Adblock.vue'
-import Contact from './views/Contact.vue'
+// import Contact from './views/Contact.vue'
+import ContactSubscribe from './views/Contact-Subscribe.vue'
 
 Vue.use(Router)
 
@@ -21,11 +22,6 @@ export default new Router({
       component: Adblock
     },
     {
-      path:'/contact',
-      name: 'contact',
-      component: Contact
-    },
-    {
       path: '/test',
       name: 'test',
       component: () => import( './views/Test.vue' )
@@ -34,6 +30,11 @@ export default new Router({
       path: '/about',
       name: 'about',
       component: () => import( './views/About.vue' )
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: ContactSubscribe
     },
     {
       path: '/contact-us',
