@@ -1,6 +1,12 @@
 <template>
   <div class="container">
     <div class="row">
+      <div class="col col-md-6 offset-3 col-sm-12">
+        <h1 class="text-white text-center">{{ title }}</h1>
+      </div>
+    </div>
+
+    <div class="row">
       <div class="col col-md-8 offset-2 col-sm-12">
         <div class="form-wrapper">
           <form
@@ -67,15 +73,36 @@
 
             <div class="form-group">
               <label for="contact-msg">Your Message</label>
-              <textarea name id="contact-msg" cols="30" rows="7" class="form-control" placeholder="Your Message"></textarea>
+              <textarea
+                name
+                id="contact-msg"
+                cols="30"
+                rows="7"
+                class="form-control"
+                placeholder="Your Message"
+              ></textarea>
             </div>
 
-            <div data-netlify-recaptcha="true"></div>
+            <!-- <div data-netlify-recaptcha="true"></div> -->
             <button type="submit" class="btn btn-lg btn-outline-info">
               <span>
                 <i class="fa fa-send"></i>
               </span> Send Email
             </button>
+
+            <router-link to="/">
+              <button type="submit" class="btn btn-lg btn-outline-secondary">
+                <span>
+                  <i class="fa fa-home"></i>
+                </span> Return to Home Page
+              </button>
+            </router-link>
+
+            <!-- <router-link to="/">
+                <button type="submit" class="btn btn-secondary btn-lg btn-block">
+                  <i class="fa fa-home" aria-hidden="true"></i> Return Home
+                </button>
+            </router-link>-->
           </form>
         </div>
       </div>
@@ -84,7 +111,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["title"]
+};
 </script>
 
 <style scoped>
@@ -92,7 +121,7 @@ input:focus,
 textarea:focus {
   border: 2px solid;
   background: transparent;
-  color: #e4e4e4;
+  color: #cecece;
 }
 
 input,
@@ -101,15 +130,16 @@ span.input-group-text {
   /* border: none !important; */
   border: 2px solid;
   background: transparent;
-  color: #e4e4e4;
+  color: #cecece;
 }
 
 span.input-group-text {
   border: 2px solid #3974d0;
 }
 
+label,
 span.input-group-text i {
-  color: #fff;
+  color: #cecece;
 }
 
 button[type="submit"] {

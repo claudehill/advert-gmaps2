@@ -7,9 +7,9 @@
     <div id="contact-us-main">
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
           <main role="main" class="inner cover text-center text-white">
-            <h2>Title is {{ title }}</h2>
-            <ContactForm v-if="isContactForm()" />
-            <SubscribeForm v-if="isSubscribeForm()" />
+            <!-- <h2>Title is {{ title }}</h2> -->
+            <ContactForm title="Contact Us" v-if="isContactForm()" />
+            <SubscribeForm title="Subscribe to Newsletter" v-if="isSubscribeForm()" />
             
           </main>
       </div>
@@ -24,6 +24,9 @@ import SubscribeForm from "@/components/SubscribeForm.vue"
 
 export default {
   name: "contact-us",
+  data: {
+    title: ""
+  },
   components: {
     ContactForm,
     SubscribeForm
