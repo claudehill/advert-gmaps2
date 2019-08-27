@@ -14,7 +14,7 @@
             id="contact-form"
             class="pt-3"
             data-netlify="true"
-            data-netlify-recaptcha="true"
+            name="contact-us-form"
           >
             <div class="form-group">
               <label for="contact-form">Email Address</label>
@@ -35,7 +35,7 @@
               </div>
             </div>
 
-            <div class="form-group">
+            <!-- <div class="form-group">
               <label for="contact-name">Name</label>
               <div class="input-group">
                 <div class="input-group-prepend">
@@ -51,9 +51,9 @@
                   required
                 />
               </div>
-            </div>
+            </div> -->
 
-            <div class="form-group">
+            <!-- <div class="form-group">
               <label for="contact-phone">Mobile Number</label>
               <div class="input-group">
                 <div class="input-group-prepend">
@@ -69,7 +69,7 @@
                   required
                 />
               </div>
-            </div>
+            </div> -->
 
             <div class="form-group">
               <label for="contact-msg">Your Message</label>
