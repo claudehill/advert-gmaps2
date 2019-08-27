@@ -9,12 +9,13 @@
     <div class="row">
       <div class="col col-md-8 offset-2 col-sm-12">
         <div class="form-wrapper">
-          <form
+
+          <!-- <form
             method="POST"
             id="contact-form"
             class="pt-3"
-            data-netlify="true"
-            name="contact-us-form"
+            name="contact-us"
+            netlify
           >
             <div class="form-group">
               <label for="contact-form">Email Address</label>
@@ -35,7 +36,7 @@
               </div>
             </div>
 
-            <!-- <div class="form-group">
+            <div class="form-group">
               <label for="contact-name">Name</label>
               <div class="input-group">
                 <div class="input-group-prepend">
@@ -51,9 +52,9 @@
                   required
                 />
               </div>
-            </div> -->
+            </div> 
 
-            <!-- <div class="form-group">
+            <div class="form-group">
               <label for="contact-phone">Mobile Number</label>
               <div class="input-group">
                 <div class="input-group-prepend">
@@ -69,7 +70,7 @@
                   required
                 />
               </div>
-            </div> -->
+            </div>
 
             <div class="form-group">
               <label for="contact-msg">Your Message</label>
@@ -82,13 +83,33 @@
                 placeholder="Your Message"
               ></textarea>
             </div>
-
-            <!-- <div data-netlify-recaptcha="true"></div> -->
             <button type="submit" class="btn btn-lg btn-outline-info">
               <span>
                 <i class="fa fa-send"></i>
               </span> Send Email
             </button>
+          </form> -->
+
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 
             <router-link to="/">
               <button type="submit" class="btn btn-lg btn-outline-secondary">
@@ -97,13 +118,6 @@
                 </span> Return to Home Page
               </button>
             </router-link>
-
-            <!-- <router-link to="/">
-                <button type="submit" class="btn btn-secondary btn-lg btn-block">
-                  <i class="fa fa-home" aria-hidden="true"></i> Return Home
-                </button>
-            </router-link>-->
-          </form>
         </div>
       </div>
     </div>
