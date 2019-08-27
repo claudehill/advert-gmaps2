@@ -10,12 +10,12 @@
       <div class="col col-md-8 offset-2 col-sm-12">
         <div class="form-wrapper">
 
-          <!-- <form
+          <form
             method="POST"
             id="contact-form"
             class="pt-3"
-            name="contact-us"
-            netlify
+            name="contact"
+            data-netlify="true"
           >
             <div class="form-group">
               <label for="contact-form">Email Address</label>
@@ -46,6 +46,7 @@
                 </div>
                 <input
                   type="text"
+                  name="name"
                   id="contact-name"
                   class="form-control form-control-lg"
                   placeholder="Full Name"
@@ -64,6 +65,7 @@
                 </div>
                 <input
                   type="tel"
+                  name="phone"
                   id="contact-phone"
                   class="form-control form-control-lg"
                   placeholder="(888) 888-8888"
@@ -75,7 +77,7 @@
             <div class="form-group">
               <label for="contact-msg">Your Message</label>
               <textarea
-                name
+                name="message"
                 id="contact-msg"
                 cols="30"
                 rows="7"
@@ -88,28 +90,7 @@
                 <i class="fa fa-send"></i>
               </span> Send Email
             </button>
-          </form> -->
-
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+          </form>
 
             <router-link to="/">
               <button type="submit" class="btn btn-lg btn-outline-secondary">
