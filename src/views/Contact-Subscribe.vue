@@ -6,7 +6,7 @@
             <ContactForm title="Contact Us" v-if="isContactForm()" />
             <!-- <SubscribeForm title="Subscribe to Newsletter" v-if="isSubscribeForm()" />-->
             <ContactFormSuccess title="Success!" v-if="isContactSuccess()"/>
-            <!-- <ContactFormFail v-if="isContactFail()" />  -->
+            <ContactFormFail title="Send Error!" v-if="isContactFail()" /> 
           </main>
       </div>
     </div>

@@ -1,26 +1,24 @@
 <template>
-  <div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-10 offset-1 text-center">
-          <h2>{{ title }}</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 offset-1 text-center">
+        <h2>{{ title }}</h2>
 
-          <span class="thumbs-up">
-            <i class="fa fa-thumbs-o-up fa-4x pt-4"></i>
-          </span>
+        <span class="thumbs-up">
+          <i class="fa fa-thumbs-o-up fa-4x pt-4"></i>
+        </span>
 
-          <p class="pt-4">
-            Your message was successfully sent.
-            <br />You'll be hearing from us soon!
-          </p>
-          <router-link to="/" >
-            <button class="btn btn-lg btn-outline-secondary">
-              <span>
-                <i class="fa fa-home"></i>
-              </span> Return to Home Page
-            </button>
-          </router-link>
-        </div>
+        <p class="pt-4">
+          Your message was successfully sent.
+          <br />You'll be hearing from us soon!
+        </p>
+        <router-link to="/">
+          <button class="btn btn-lg btn-outline-secondary">
+            <span>
+              <i class="fa fa-home"></i>
+            </span> Return to Home Page
+          </button>
+        </router-link>
       </div>
     </div>
   </div>
