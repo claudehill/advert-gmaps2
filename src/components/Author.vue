@@ -15,7 +15,7 @@
          <hr class="dark">
           By: <a href="#">Edwin C.</a> <br>
           <em>Director, Small Business Outreach</em>  <br> 
-         <a href="//mainavenuedesign.com/" target="_blank"> Main Avenue Design co.</a>
+         <a href="http://mainavenuedesign.com/" target="_blank"> Main Avenue Design co.</a>
         </div>
       </div>
     </div>

@@ -1,16 +1,12 @@
 <template>
-  <!-- <div>
-<h2>This is the Contact Us Page</h2>
-<p>this is the reuseable version.</p>
-  </div>-->
   <div class="body-wrapper">
     <div id="contact-us-main">
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-          <main role="main" class="inner cover text-center text-white">
-            <!-- <h2>Title is {{ title }}</h2> -->
+          <main role="main" class="inner cover text-white">
             <ContactForm title="Contact Us" v-if="isContactForm()" />
             <SubscribeForm title="Subscribe to Newsletter" v-if="isSubscribeForm()" />
-            
+            <ContactFormSuccess v-if="isContactSuccess()" />
+            <ContactFormFail v-if="isContactFail()" />
           </main>
       </div>
     </div>
@@ -21,6 +17,9 @@
 
 import ContactForm from "@/components/ContactForm.vue"
 import SubscribeForm from "@/components/SubscribeForm.vue"
+import ContactFormSuccess from "@/components/ContactFormSuccess.vue"
+import ContactFormFail from "@/components/ContactFormFail.vue"
+
 
 export default {
   name: "contact-us",
@@ -29,7 +28,9 @@ export default {
   },
   components: {
     ContactForm,
-    SubscribeForm
+    SubscribeForm,
+    ContactFormSuccess,
+    ContactFormFail
   },
   methods: {
     isContactForm() {
@@ -37,6 +38,12 @@ export default {
     },
     isSubscribeForm() {
       return this.$route.path == "/subscribe-to" || this.$route.path == "subscribe"
+    },
+    isContactSuccess() {
+      return this.$route.path == "/contact/success" || this.$route.path == "/contact-us/success"
+    },
+    isContactFail() {
+      return this.$route.path == "/contact/fail" || this.$route.path == "/contact-us/fail"
     }
   }
 };

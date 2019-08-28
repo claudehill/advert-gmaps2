@@ -141,7 +141,17 @@ span.input-group-text i {
   color: #cecece;
 }
 
-button[type="submit"] {
+
+button {
   width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
 }
+
+.router-link-active {
+  text-decoration: none !important;
+}
+
 </style>

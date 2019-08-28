@@ -32,13 +32,33 @@ export default new Router({
       component: () => import( './views/About.vue' )
     },
     {
-      path: '/contact',
-      name: 'contact',
+      path: '/contact/success',
+      name: 'contact-success',
+      component: ContactSubscribe
+    },
+    {
+      path: '/contact/fail',
+      name: 'contact-fail',
+      component: ContactSubscribe
+    },
+    {
+      path: '/contact-us/success',
+      name: 'contact-us-success',
+      component: ContactSubscribe
+    },
+    {
+      path: '/contact-us/fail',
+      name: 'contact-us-fail',
       component: ContactSubscribe
     },
     {
       path: '/contact-us',
       name: 'contact-us',
+      component: () => import( /*webpackChunkName: "contact-us" */ './views/Contact-Subscribe.vue' )
+    },
+    {
+      path: '/contact',
+      name: 'contact',
       component: () => import( /*webpackChunkName: "contact-us" */ './views/Contact-Subscribe.vue' )
     },
     {
