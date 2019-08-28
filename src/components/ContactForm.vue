@@ -11,14 +11,13 @@
         <div class="form-wrapper">
 
           <form
-            method="POST"
+            method="post"
             id="contact-form"
-            class="pt-3"
             name="contact-us"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
+            data-netlify-honeypot="bot-field" 
+            data-netlify-"true"
           >
-          <input type="hidden" name="form-name" value="contact-form" />
+          <input type="hidden" name="form-name" value="contact-us" />
             <div class="form-group">
               <label for="contact-form">Email Address</label>
               <div class="input-group">
