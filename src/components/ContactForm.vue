@@ -1,4 +1,4 @@
-<template>
+<template v-if="isContactForm()">
   <div class="container">
     <div class="row">
       <div class="col col-md-6 offset-3 col-sm-12">
@@ -9,15 +9,14 @@
     <div class="row">
       <div class="col col-md-8 offset-2 col-sm-12">
         <div class="form-wrapper">
-
           <form
             method="post"
             id="contact-form"
             name="contact-us"
-            data-netlify-honeypot="bot-field" 
+            data-netlify-honeypot="bot-field"
             data-netlify="true"
           >
-          <input type="hidden" name="form-name" value="contact-us" />
+            <input type="hidden" name="form-name" value="contact-us" />
             <div class="form-group">
               <label for="contact-form">Email Address</label>
               <div class="input-group">
@@ -54,7 +53,7 @@
                   required
                 />
               </div>
-            </div> 
+            </div>
 
             <div class="form-group">
               <label for="contact-phone">Mobile Number</label>
@@ -93,13 +92,13 @@
             </button>
           </form>
 
-            <router-link to="/">
-              <button type="submit" class="btn btn-lg btn-outline-secondary">
-                <span>
-                  <i class="fa fa-home"></i>
-                </span> Return to Home Page
-              </button>
-            </router-link>
+          <router-link to="/">
+            <button type="submit" class="btn btn-lg btn-outline-secondary">
+              <span>
+                <i class="fa fa-home"></i>
+              </span> Return to Home Page
+            </button>
+          </router-link>
         </div>
       </div>
     </div>
@@ -108,7 +107,14 @@
 
 <script>
 export default {
-  props: ["title"]
+  props: ["title"],
+  methods: {
+    isContactForm: function() {
+      return (
+        this.$route.path == "/contact-us" || this.$route.path == "/contact"
+      );
+    }
+  }
 };
 </script>
 
@@ -141,7 +147,6 @@ span.input-group-text i {
   color: #cecece;
 }
 
-
 button {
   width: 60%;
   display: block;
@@ -153,5 +158,4 @@ button {
 .router-link-active {
   text-decoration: none !important;
 }
-
 </style>

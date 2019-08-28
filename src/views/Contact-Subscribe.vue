@@ -4,9 +4,9 @@
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
           <main role="main" class="inner cover text-white">
             <ContactForm title="Contact Us" v-if="isContactForm()" />
-            <SubscribeForm title="Subscribe to Newsletter" v-if="isSubscribeForm()" />
-            <ContactFormSuccess v-if="isContactSuccess()" />
-            <ContactFormFail v-if="isContactFail()" />
+            <!-- <SubscribeForm title="Subscribe to Newsletter" v-if="isSubscribeForm()" />-->
+            <ContactFormSuccess title="Success!" v-if="isContactSuccess()"/>
+            <!-- <ContactFormFail v-if="isContactFail()" />  -->
           </main>
       </div>
     </div>
@@ -23,9 +23,9 @@ import ContactFormFail from "@/components/ContactFormFail.vue"
 
 export default {
   name: "contact-us",
-  data: {
-    title: ""
-  },
+  // data: {
+  //   title: "Page Title"
+  // },
   components: {
     ContactForm,
     SubscribeForm,

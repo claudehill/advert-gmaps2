@@ -54,7 +54,6 @@
 @import "../assets/styles/blog.css";
 .blue {
   color: #3974d8;
-  
 }
 
 .teal {
@@ -122,14 +121,19 @@ export default {
   },
   methods: {
     checkAdblock: function() {
-      if (document.getElementById("369379917555767") == undefined) {
-        console.log("adblock detected, redirecting in 5 seconds ...");
+      setTimeout(() => {
 
-        // Redirect to adblock page after 5 seconds
-        setTimeout(() => {
-          this.$router.push({ name: "adblock" });
-        }, 5 * 1000);
-      }
+
+    if (document.getElementById("369379917555767") == undefined) {
+      console.log("adblock detected, redirecting in 5 seconds ...");
+
+      // Redirect to adblock page after 5 seconds
+      return setTimeout(() => {
+        this.$router.push({ name: "adblock" });
+      }, 5 * 1000);
+    }
+
+      }, 10 * 1000);
     }
   }
 };
