@@ -15,7 +15,7 @@
             id="contact-form"
             name="contact-us"
             data-netlify-honeypot="bot-field" 
-            data-netlify-"true"
+            data-netlify="true"
           >
           <input type="hidden" name="form-name" value="contact-us" />
             <div class="form-group">
