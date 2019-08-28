@@ -18,7 +18,7 @@
             data-netlify="true"
             data-netlify-honeypot="bot-field"
           >
-          <input type="hidden" name="contact" value="contact-us" />
+          <input type="hidden" name="form-name" value="contact-form" />
             <div class="form-group">
               <label for="contact-form">Email Address</label>
               <div class="input-group">
