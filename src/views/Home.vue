@@ -59,7 +59,8 @@
 .teal {
   color: #17a2b8;
 }
-.btn-outline-info {
+.btn-outline-info,
+#mc-embedded-subscribe {
   /* color: #3974d8;
   border-color: #3974d8; */
   color: #17a2b8;

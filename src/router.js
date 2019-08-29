@@ -42,39 +42,16 @@ export default new Router({
       component: ContactSubscribe
     },
     {
-      path: '/contact-us/success',
-      name: 'contact-us-success',
-      component: ContactSubscribe
-    },
-    {
-      path: '/contact-us/fail',
-      name: 'contact-us-fail',
-      component: ContactSubscribe
-    },
-    {
-      path: '/contact-us',
-      name: 'contact-us',
-      component: () => import( /*webpackChunkName: "contact-us" */ './views/Contact-Subscribe.vue' )
-    },
-    {
       path: '/contact',
       name: 'contact',
-      component: () => import( /*webpackChunkName: "contact-us" */ './views/Contact-Subscribe.vue' )
+      // component: () => import( /*webpackChunkName: "contact-us" */ './views/Contact-Subscribe.vue' )
+    component: ContactSubscribe
     },
     {
       path: '/subscribe',
       name: 'subscribe',
-      component: () => import(/* webpackChunkName: "subscribe" */ './views/Subscribe.vue')
-    },
-    {
-      path: '/subscribe-to',
-      name: 'subscribe-to',
-      component: () => import( /* webpackChunkName: "subscribe-to" */ './views/Contact-Subscribe.vue' )
-    },
-    {
-      path: '/confirm',
-      name: 'confirm',
-      component: () => import(/* webpackChunkName: "confirm" */ './views/Confirm.vue' )
+      // component: () => import(/* webpackChunkName: "subscribe" */ './views/Contact-Subscribe.vue')
+    component: ContactSubscribe
     },
     {
       path: '/error',

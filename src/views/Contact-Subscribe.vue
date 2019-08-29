@@ -4,7 +4,7 @@
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
           <main role="main" class="inner cover text-white">
             <ContactForm title="Contact Us" v-if="isContactForm()" />
-            <!-- <SubscribeForm title="Subscribe to Newsletter" v-if="isSubscribeForm()" />-->
+            <SubscribeForm title="Subscribe" v-if="isSubscribeForm()" />
             <ContactFormSuccess title="Success!" v-if="isContactSuccess()"/>
             <ContactFormFail title="Send Error!" v-if="isContactFail()" /> 
           </main>
@@ -34,16 +34,16 @@ export default {
   },
   methods: {
     isContactForm() {
-      return this.$route.path == "/contact-us" || this.$route.path == "/contact"
+      return this.$route.path == "/contact"
     },
     isSubscribeForm() {
-      return this.$route.path == "/subscribe-to" || this.$route.path == "subscribe"
+      return this.$route.path == "/subscribe"
     },
     isContactSuccess() {
-      return this.$route.path == "/contact/success" || this.$route.path == "/contact-us/success"
+      return this.$route.path == "/contact/success"
     },
     isContactFail() {
-      return this.$route.path == "/contact/fail" || this.$route.path == "/contact-us/fail"
+      return this.$route.path == "/contact/fail"
     }
   }
 };

@@ -88,7 +88,7 @@
               ></textarea>
             </div>
 
-  <div data-netlify-recaptcha="true"></div>
+            <div data-netlify-recaptcha="true"></div>
 
             <button type="submit" class="btn btn-lg btn-outline-info">
               <span>
