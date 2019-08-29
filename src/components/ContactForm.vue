@@ -1,4 +1,4 @@
-<template v-if="isContactForm()">
+<template>
   <div class="container">
     <div class="row">
       <div class="col col-md-6 offset-3 col-sm-12">
@@ -16,6 +16,7 @@
             data-netlify-honeypot="bot-field"
             data-netlify="true"
             action="/contact/success/"
+            data-netlify-recaptcha="true"
           >
             <input type="hidden" name="form-name" value="contact-us" />
             <div class="form-group">
@@ -86,6 +87,9 @@
                 placeholder="Your Message"
               ></textarea>
             </div>
+
+  <div data-netlify-recaptcha="true"></div>
+
             <button type="submit" class="btn btn-lg btn-outline-info">
               <span>
                 <i class="fa fa-send"></i>
@@ -108,14 +112,7 @@
 
 <script>
 export default {
-  props: ["title"],
-  methods: {
-    isContactForm: function() {
-      return (
-        this.$route.path == "/contact-us" || this.$route.path == "/contact"
-      );
-    }
-  }
+  props: ["title"]
 };
 </script>
 
