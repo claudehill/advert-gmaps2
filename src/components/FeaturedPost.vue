@@ -1,42 +1,65 @@
 <template>
   <div class="container">
-    <h3 class="text-center my-4">Other Related MicroSites</h3>
-
+    <h3 class="text-center my-4 promo">Productivity Tips &amp; Tools</h3>
+<p class="my-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusamus nemo id rem obcaecati soluta.</p>
     <div class="row mb-2">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <div
-          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          class="row no-gutters border rounded flex-md-row mb-4 shadow-sm h-md-250 position-relative"
         >
           <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-primary">World</strong>
-            <h3 class="mb-0">Featured Post</h3>
-            <div class="mb-1 text-muted">Nov 12</div>
-            <p
-              class="card-text mb-auto"
-            >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, adipisci?</p>
-            <a href="#" class="stretched-link">Continue Reading</a>
+            <strong class="d-inline-block mb-2 text-muted">Customer Engagement Platform</strong>
+            <h4 class="my-2">
+              <a
+                href="https://www.livechatinc.com/?a=r0WaQ-FWg&utm_source=PP&utm_campaign=default_link&utm_source=PP&utm_medium=logo&utm_content=v2"
+              >LiveChat - Realtime chat &amp; helpdesk platform.</a>
+            </h4>
+            <div class="my-1 text-muted">
+              <span class="badge badge-pill badge-success">
+                <i class="fa fa-dollar"></i>
+                Cost: Free to try
+              </span> 
+            </div>
+            <p class="card-text mb-auto">
+              Have you tried LiveChat yet? It’s a live chat software and help desk software that allows your customers to reach you in real time without the need to make a phone call!
+              <a
+                href="https://www.livechatinc.com/?a=r0WaQ-FWg&utm_source=PP&utm_campaign=default_link&utm_source=PP&utm_medium=text&utm_content=v9"
+              >Sign up</a> for a free trial and see how quick and easy it is!
+            </p>
           </div>
           <div class="col-auto d-none d-lg-block">
-            <img src="https://source.unsplash.com/random/201x250" />
+            <!-- <img src="https://source.unsplash.com/random/201x250" /> -->
+            <div class="img-container">
+              <a
+                href="https://www.livechatinc.com/?a=r0WaQ-FWg&utm_source=PP&utm_campaign=default_link&utm_source=PP&utm_medium=logo&utm_content=v2"
+              >
+                <img
+                  src="https://cdn.livechatinc.com/partners/production/img/livechat.svg"
+                  width="128"
+                  height="128"
+                  alt="Live Chat Software"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="col-md-6">
+      <div class="col-md-12">
         <div
           class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
         >
           <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-primary">World</strong>
-            <h3 class="mb-0">Featured Post</h3>
+            <strong class="d-inline-block mb-2 text-muted">Cybersecurity</strong>
+            <h4 class="mb-0">Do you offer free wifi?  Keep customers safe.  Here's how.</h4>
             <div class="mb-1 text-muted">Nov 12</div>
             <p
               class="card-text mb-auto"
             >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, adipisci?</p>
-            <a href="#" class="stretched-link">Continue Reading</a>
+            <!-- <a href="#" class="stretched-link">Continue Reading</a> -->
           </div>
           <div class="col-auto d-none d-lg-block">
-            <img src="https://source.unsplash.com/random/200x250" />
+            <img src="../assets/img/hacker_img1.jpg" />
           </div>
         </div>
       </div>
@@ -50,5 +73,28 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+.promo {
+  font-family: "Special Elite", cursive;
+}
+
+.img-container {
+  width: 200px;
+  height: 250px;
+  border: 2px solid #ccc;
+}
+.img-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25%;
+}
+
+.card-text, h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+h4, h4 a {
+  color: #17a2b8;
+}
 </style>
