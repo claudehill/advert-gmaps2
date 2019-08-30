@@ -6,8 +6,8 @@
       </a>
     </div>
     <div class="p-4 mb-3 bg-light-alt">
-      <h4 class="font-italic text-center">About this Site</h4>
-      <p>This MicroSite is specifically designed for small business owners to explain common technical problems and their resolution from a non-technical perspective.</p>
+      <h5 class="text-center">About this Site</h5>
+      <p>This micro-site is specifically designed for small business owners to explain common technical problems and their resolution from a non-technical perspective.</p>
       <p>The problem with many sites of this nature is that ...</p>
       <router-link to="/about" class="btn btn-outline-info btn-block btn-outline-round">Read More</router-link>
     </div>
@@ -28,27 +28,18 @@
         ></iframe>
       </div>
     </div>
-
-    <div class="p-4">
-      <h4 class="font-italic">Elsewhere</h4>
-      <ol class="list-unstyled">
-        <li>
-          <a href="#">GitHub</a>
-        </li>
-        <li>
-          <a href="#">Twitter</a>
-        </li>
-        <li>
-          <a href="#">Facebook</a>
-        </li>
-      </ol>
-    </div>
+    <SidebarTeaser />
   </aside>
 </template>
 
 <script>
+import SidebarTeaser from "@/components/SidebarTeaser.vue"
+
 export default {
-  name: "Sidebar"
+  name: "Sidebar",
+  components: {
+    SidebarTeaser
+  }
 };
 </script>
 
@@ -84,5 +75,14 @@ export default {
 .ad-container iframe {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+h5 {
+  font-family: "Special Elite", cursive;
+}
+
+p {
+    font-size: 0.9rem;
+  color: #999999;
 }
 </style>
