@@ -8,10 +8,6 @@
             </span> Help! ... the Directions to my Business Says "This Page Can't Load Google Maps Correctly"
           </h1>
           <p class="lead pt-4 my-3"> ... seen this error?  Continue reading.</p>
-          <p class="lead mb-0">
-            <!-- <a href="#" class="text-white font-weight-bold">Continue reading...</a> -->
-            <span><i class="fa fa-chevron-down fa-2x"></i></span>
-          </p>
         </div>
       </div>
 </template>
@@ -32,6 +28,24 @@
 
 .jumbotron {
   height: 400px !important;
+}
+
+@media (max-width: 768px) {
+  .jumbotron {
+     display: none;
+  }
+}
+
+@media(max-width: 991px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .jumbotron {
+    max-height: 300px;
+  }
+  p.lead {
+    display: none;
+  }
 }
 
 </style>

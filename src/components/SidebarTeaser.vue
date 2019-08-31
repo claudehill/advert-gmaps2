@@ -11,7 +11,11 @@
     </p>
     </div>
     <ul class="list-group list-group-flush">
-      <li class="list-group-item"><i class="fa fa-desktop"></i> <a href="http://mainavenuedesign.com" class="" target="_blank">our website</a></li>
+      <li class="list-group-item">
+        
+        <img class="logo-sidebar" src="../assets/img/main_avenue_logo_1.png" alt="" srcset="">
+        
+        <i class="fa fa-desktop"></i> <a href="http://mainavenuedesign.com" class="" target="_blank">our website</a></li>
       <li class="list-group-item">
         <span><i class="fa fa-envelope-o"></i></span>        
         <router-link to="/contact">via email</router-link>
@@ -46,5 +50,14 @@ p.card-text,
 
 i.fa {
   padding-right: 10px;
+}
+
+.logo-sidebar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
+  margin-bottom: 1rem;
 }
 </style>

@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <h3 class="text-center my-4 promo">Productivity Tips &amp; Tools</h3>
-<p class="my-3 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusamus nemo id rem obcaecati soluta.</p>
+    <p
+      class="my-3 text-center"
+    >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusamus nemo id rem obcaecati soluta.</p>
     <div class="row mb-2">
       <div class="col-md-12">
         <div
@@ -18,7 +20,7 @@
               <span class="badge badge-pill badge-success">
                 <i class="fa fa-dollar"></i>
                 Cost: Free to try
-              </span> 
+              </span>
             </div>
             <p class="card-text mb-auto">
               Have you tried LiveChat yet? It’s a live chat software and help desk software that allows your customers to reach you in real time without the need to make a phone call!
@@ -28,7 +30,6 @@
             </p>
           </div>
           <div class="col-auto d-none d-lg-block">
-            <!-- <img src="https://source.unsplash.com/random/201x250" /> -->
             <div class="img-container">
               <a
                 href="https://www.livechatinc.com/?a=r0WaQ-FWg&utm_source=PP&utm_campaign=default_link&utm_source=PP&utm_medium=logo&utm_content=v2"
@@ -51,12 +52,18 @@
         >
           <div class="col p-4 d-flex flex-column position-static">
             <strong class="d-inline-block mb-2 text-muted">Cybersecurity</strong>
-            <h4 class="mb-0">Do you offer free wifi?  Keep customers safe.  Here's how.</h4>
-            <div class="mb-1 text-muted">Nov 12</div>
+            <h4 class="my-2">Do you offer free wifi? Keep customers safe. Here's how.</h4>
+            <div class="my-1 text-muted">
+              <span class="badge badge-pill badge-dark">
+                <i class="fa fa-calendar"></i>
+                Status: Pending
+              </span>
+            </div>
             <p
               class="card-text mb-auto"
-            >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, adipisci?</p>
-            <!-- <a href="#" class="stretched-link">Continue Reading</a> -->
+            >
+            Our content creators are still working on researching and writing this article.  <router-link to="/subscribe">Sign up for our newsletter</router-link>  and we'll let you know as soon as it's ready.
+            </p>
           </div>
           <div class="col-auto d-none d-lg-block">
             <img src="../assets/img/hacker_img1.jpg" />
@@ -90,11 +97,13 @@ export default {
   margin-top: 25%;
 }
 
-.card-text, h4 {
+.card-text,
+h4 {
   font-family: "Roboto", sans-serif;
 }
 
-h4, h4 a {
+h4,
+h4 a {
   color: #17a2b8;
 }
 </style>

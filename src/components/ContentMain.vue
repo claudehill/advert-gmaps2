@@ -250,4 +250,23 @@ li {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 991px) {
+  .img-logo {
+    /* margin: 5px !important; */
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 10px;
+  
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 992px) {}
 </style>

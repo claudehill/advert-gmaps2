@@ -17,19 +17,14 @@ export default new Router({
       component: Home
     },
     {
-      path:'/adblock',
+      path: '/adblock',
       name: 'adblock',
       component: Adblock
     },
     {
-      path: '/test',
-      name: 'test',
-      component: () => import( './views/Test.vue' )
-    },
-    { 
       path: '/about',
       name: 'about',
-      component: () => import( './views/About.vue' )
+      component: () => import('./views/About.vue')
     },
     {
       path: '/contact/success',
@@ -44,14 +39,12 @@ export default new Router({
     {
       path: '/contact',
       name: 'contact',
-      // component: () => import( /*webpackChunkName: "contact-us" */ './views/Contact-Subscribe.vue' )
-    component: ContactSubscribe
+      component: ContactSubscribe
     },
     {
       path: '/subscribe',
       name: 'subscribe',
-      // component: () => import(/* webpackChunkName: "subscribe" */ './views/Contact-Subscribe.vue')
-    component: ContactSubscribe
+      component: ContactSubscribe
     },
     {
       path: '/error',
