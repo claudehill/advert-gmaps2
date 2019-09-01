@@ -28,8 +28,8 @@
 
       <main role="main" class="container">
         <div class="row">
-          <div class="col-md-8 blog-main">
-            <h3 class="pb-4 mb-4 border-bottom dark-grey blog-header-font" style="font-size:2rem;">
+          <div class="col-md-12 col-lg-8 blog-main">
+            <h3 class="pb-2 mb-4 border-bottom dark-grey blog-header-font" style="font-size:2rem;">
               <span class>
                 <i class="fa fa-microphone teal"></i>
               </span> From our Design Team...
@@ -37,18 +37,17 @@
 
             <ContentMain />
 
-            <div class="col-12">
+            <div class="d-md-none col-sm-12">
               <router-link to="/contact" class="btn btn-outline-info btn-sm-only">Contact Us</router-link>
             </div>
-            <div class="col-12">
+            <div class="d-md-none col-sm-12">
               <router-link
                 to="/subscribe"
                 class="btn btn-outline-info btn-sm-only"
               >Subscribe to Newsletter</router-link>
             </div>
-
-            <Sidebar />
           </div>
+          <Sidebar />
         </div>
         <FeaturedPost />
         <Comments />
@@ -96,15 +95,40 @@
   border-radius: 50%;
 }
 
-@media (max-width: 768px) {
+/* h3.blog-header-font {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+} */
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .btn-lg-only {
+    display: block;
+  }
+  .btn-sm-only {
+    display: none;
+  }
 }
 
 @media (max-width: 991px) {
   .blog-header-logo {
     font-size: 2rem;
   }
-  .btn-lg-only,
-  h3.blog-header-font {
+  .btn-lg-only {
     display: none;
   }
 
@@ -121,13 +145,8 @@
   }
 }
 
-@media (min-width: 992px) {
-  .btn-lg-only {
-    display: block;
-  }
-  .btn-sm-only {
-    display: none;
-  }
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
 </style>
 

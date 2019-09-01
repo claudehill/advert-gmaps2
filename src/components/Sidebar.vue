@@ -1,16 +1,7 @@
 <template>
-  <aside class="col-md-4 blog-sidebar">
-    <div class="pt-2 pb-0 sidebar-logo">
-      <a href="//mainavenuedesign.com/" target="_blank">
-        <img src="../assets/img/main_avenue_logo_5.jpg" alt />
-      </a>
-    </div>
-    <div class="p-4 mb-3 bg-light-alt">
-      <h5 class="text-center">About this Site</h5>
-      <p>This micro-site is specifically designed for small business owners to explain common technical problems and their resolution from a non-technical perspective.</p>
-      <p>The problem with many sites of this nature is that ...</p>
-      <router-link to="/about" class="btn btn-outline-info btn-block btn-outline-round">Read More</router-link>
-    </div>
+  <aside class="col-lg-4 blog-sidebar">
+
+<SidebarAbout />
 
     <p class="sm text-center">Advertisement</p>
 
@@ -34,11 +25,13 @@
 
 <script>
 import SidebarTeaser from "@/components/SidebarTeaser.vue"
+import SidebarAbout from "@/components/SidebarAbout.vue"
 
 export default {
   name: "Sidebar",
   components: {
-    SidebarTeaser
+    SidebarTeaser,
+    SidebarAbout
   }
 };
 </script>
@@ -49,7 +42,6 @@ export default {
 }
 
 .sidebar-logo img {
-  /* max-width: 300px; */
   width: 100%;
   height: auto;
 }
@@ -68,13 +60,13 @@ export default {
   color: #c4c4c4;
 }
 
-.ad-container {
-  margin-left: 20px;
-}
-
 .ad-container iframe {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
 }
 
 h5 {

@@ -81,7 +81,6 @@
 
     <p>In the case of Google Maps, both the removal of keyless API usage and the requirement of a Google Cloud billing account means that if you used the Google Maps ecosystem a few years ago but didn’t make any updates to your account and the code that utilizes these changes, your site won’t work properly.</p>
 
-
     <h3 class="text-center">
       A Little Background Info ...
       <br />What the heck is an API Anyway?
@@ -188,7 +187,9 @@
     <p>The point here, is that we often advise small business owners who are NOT tech savvy to simply stick to what they're good at.</p>
     <p>
       If the information provided in this post seems too much to take on yourself, it is best to outsource the work to a skilled web designer / developer who understands what is needed and can get you up and running quickly. At
-      <a href="//mainavenuedesign.com/">Main Avenue Design co.</a> , we've been helping restaurants and small businesses with problems like this since 2011.
+      <a
+        href="//mainavenuedesign.com/"
+      >Main Avenue Design co.</a> , we've been helping restaurants and small businesses with problems like this since 2011.
     </p>
     <p>If you need us, we're here for you.</p>
 
@@ -256,17 +257,21 @@ li {
 
 @media (max-width: 991px) {
   .img-logo {
-    /* margin: 5px !important; */
     display: block;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-  
   }
+
+  p {
+    font-size: 0.95rem;
+  }
+
   h2 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 }
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+}
 </style>
