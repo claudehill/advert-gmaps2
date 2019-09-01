@@ -81,11 +81,29 @@
 
     <p>In the case of Google Maps, both the removal of keyless API usage and the requirement of a Google Cloud billing account means that if you used the Google Maps ecosystem a few years ago but didn’t make any updates to your account and the code that utilizes these changes, your site won’t work properly.</p>
 
+    <div id="ipv-1-469x60" class="bnr-wide">
+      <iframe
+        name="banner"
+        src="https://affiliategroove.com/scripts/banner.php?a_aid=5d5e8ede639c1&amp;a_bid=3bed6813&amp;w=1"
+        framespacing="0"
+        frameborder="no"
+        scrolling="no"
+        width="468"
+        height="60"
+        allowtransparency="true"
+      >
+        <a
+          href="https://www.ipvanish.com/check-my-privacy.php/?a_aid=5d5e8ede639c1&amp;a_bid=3bed6813"
+          target="_top"
+        >Take Online Security Seriously</a>
+      </iframe>
+    </div>
+
     <h3 class="text-center">
       A Little Background Info ...
       <br />What the heck is an API Anyway?
     </h3>
-    <p>First of all, what is an API? API is an acronym that stands for Application Programmer Interface. Put simply, an API allows one piece of software (the “caller”) to request and obtain data from another piece of software without knowing the internal mechanisms of the system providing that data. This is done through a set of rules called HTTP (or, HyperText Transfer Protocol).</p>
+    <p>First of all, what is an API? API is an acronym that stands for Application Programming Interface. Put simply, an API allows one piece of software (the “caller”) to request and obtain data from another piece of software without knowing the internal mechanisms of the system providing that data. This is done through a set of rules called HTTP (or, HyperText Transfer Protocol).</p>
     <p>As long as the calling system requests the data in the right way, the system providing the data will continue to send the data that was requested. Problems arise, however, when the system supplying the data changes the rules (called parameters) of how to obtain the data.</p>
 
     <p>In 2016, when Google began requiring an API key to access Google Maps, this was actually an additional, mandatory parameter that was required to obtain the data - i.e., the map and/or driving directions to your place of business. Without it, the previous request became invalid, thus resulting in an error on your website without this parameter.</p>
@@ -130,7 +148,7 @@
 
     <p>Finally, the Google directions API utilizes a combination of both the Google Maps API as well as the Google Geocoding API. This API is used for calculating and displaying directions in real-time for driving, cycling, Transit, or walking to or from a given location.</p>
     <p>The Google directions API comes in two flavors. There is a basic request and there is an advanced request. The advanced request includes additional features not present on the basic request such as real-time traffic monitoring, as well as the ability to add multiple waypoints.</p>
-    <p>However, the advanced directions API does not come without additional cost. As of the time of this writing the cost for the basic Google directions API cost 0005 whereas the cost for the advanced Google directions API cost 0010 per request. Well this may not seem like a lot of money on the surface, when multiple users begin requesting APIs multiple times in a very short time span this can become quite costly for the person paying for the API - meaning, you the business owner.</p>
+    <p>However, the advanced directions API does not come without additional cost. As of the time of this writing the cost for the basic Google directions API cost 0.005 whereas the cost for the advanced Google directions API cost 0.010 per request. Well this may not seem like a lot of money on the surface, when multiple users begin requesting APIs multiple times in a very short time span this can become quite costly for the person paying for the API - meaning, you the business owner.</p>
     <p>So you need to be selective when choosing which APIs you want to utilize for your website. Carefully weigh the cost of each API that you need vs. the benefit that each API will provide to both your end-users and to your business as a whole. doing this will ensure that you are keeping costs in while maximizing the benefits to your customers - thus, ensuring profitability.</p>
 
     <h3 class="text-center">Adding Google Maps to your Website Using Google Maps APIs</h3>
@@ -250,6 +268,12 @@ h5 {
 li {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.bnr-wide iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (max-width: 768px) {
