@@ -8,8 +8,7 @@
     <div class="p-4 mb-3 bg-light-alt">
       <h5 class="my-3 text-center">About this Site</h5>
       <p class="sm">This micro-site is specifically designed for small business owners to explain common technical problems and their resolution from a non-technical perspective.</p>
-      <!-- <p class="sm">The problem with many sites of this nature is that ...</p> -->
-      <router-link to="/about" class="btn btn-outline-info btn-block btn-outline-round">Read More</router-link>
+      <!-- <router-link to="/about" class="btn btn-outline-info btn-block btn-outline-round">Read More</router-link> -->
     </div>
   </div>
 </template>
