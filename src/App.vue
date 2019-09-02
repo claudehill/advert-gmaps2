@@ -9,7 +9,6 @@
       <router-link to="/about">About</router-link>|
       <router-link to="/subscribe">Subscribe / Newsletter</router-link>|
       <router-link to="/error">Error / 404</router-link>|
-      <router-link to="/test">Test Page</router-link>
     </div>
     <router-view />
   </div>
@@ -18,10 +17,12 @@
 <style>
 @import "./assets/styles/litera.bootstrap.min.css";
 @import "./assets/styles/main.css";
+#nav {
+  display: none;
+}
 </style>
 
 <script>
-// require('../src/assets/js/geo')
 
 export default {};
 </script>

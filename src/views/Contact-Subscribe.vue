@@ -55,6 +55,6 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-height: 800px;
+  min-height: 1000px;
 }
 </style>

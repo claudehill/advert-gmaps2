@@ -1,9 +1,5 @@
 <template>
   <div id="comments-wrapper">
-    <h3 class="text-center">Got Feedback?</h3>
-
-    <p class="text-center">We're listening... Please comment below.</p>
-
     <div id="disqus_thread"></div>
     <noscript>
       Please enable JavaScript to view the
@@ -19,7 +15,8 @@
 require("../assets/js/disqus");
 
 export default {
-  name: "Comments"
+  name: "Comments",
+
 };
 </script>
 

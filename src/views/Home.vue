@@ -173,7 +173,9 @@ export default {
     MapDemo,
     Sidebar
   },
-  created() {},
+  created() {
+    // this.$forceUpdate();
+  },
   mounted() {
     this.checkAdblock();
   },
