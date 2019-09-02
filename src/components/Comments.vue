@@ -1,9 +1,10 @@
 <template>
   <div id="comments-wrapper">
+    <h3 class="text-center">Got Feedback?</h3>
+
+    <p class="text-center">We're listening... Please comment below.</p>
+
     <div id="disqus_thread"></div>
-
-    <!-- <script src="js/disqus.js"></script> -->
-
     <noscript>
       Please enable JavaScript to view the
       <a href="https://disqus.com/?ref_noscript">
@@ -15,8 +16,7 @@
 </template>
 
 <script>
-
-require('../assets/js/disqus')
+require("../assets/js/disqus");
 
 export default {
   name: "Comments"

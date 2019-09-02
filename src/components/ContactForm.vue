@@ -1,13 +1,13 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col col-md-6 offset-3 col-sm-12">
+      <div class="col col-lg-6 offset-lg-3 col-md-12">
         <h1 class="text-white text-center">{{ title }}</h1>
       </div>
     </div>
 
     <div class="row">
-      <div class="col col-md-8 offset-2 col-sm-12">
+      <div class="col col-md-12 col-lg-8 offset-lg-2">
         <div class="form-wrapper">
           <form
             method="post"
@@ -156,4 +156,24 @@ button {
 .router-link-active {
   text-decoration: none !important;
 }
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+@media (max-width: 991px) { 
+
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
 </style>

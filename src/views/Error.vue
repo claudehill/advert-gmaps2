@@ -10,10 +10,11 @@
           >We're not quite sure what happened, but we'll get to the bottom of it!</p>
 
           <p class="lead-light">
-            <router-link
-              to="/"
-              class="btn btn-lg btn-outline-info">
-            <span><i class="fa fa-home"></i></span>  Return to Home Page</router-link>
+            <router-link to="/" class="btn btn-lg btn-outline-info">
+              <span>
+                <i class="fa fa-home"></i>
+              </span> Return to Home Page
+            </router-link>
           </p>
         </main>
       </div>
@@ -43,6 +44,7 @@ a {
   background: url("../assets/img/dev_error1.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
   min-height: 800px;
 }
 </style>

@@ -28,7 +28,7 @@
     <hr />
     <div class="addthis_sharing_toolbox"></div>
 
-    <h3 class="pt-4 pb-2">A Personal Perspective</h3>
+    <h3 class="pt-4 pb-2 text-center">A Personal Perspective</h3>
 
     <p>
       As a restaurateur or other small business owner with a traditional “brick-and-mortar” business, few things are more frustrating to your potential customers than not knowing how to find the location of your business. On the internet, you only have a few minutes (at
@@ -63,7 +63,7 @@
       >evidence continues to mount that we are heading into a deep recession</a>, the competition for your client base will continue to grow. Having clear directions to your restaurant or business, coupled with a good marketing strategy that fosters both loyalty and growth will help you remain profitable in any economic climate.
     </p>
 
-    <h2 class="text-center">Why You're Seeing This Google Maps Error on your Small Business Website</h2>
+    <h3 class="text-center">Why You're Seeing This Google Maps Error on your Small Business Website</h3>
     <p>
       On June 22, 2016,
       <a
@@ -77,7 +77,7 @@
     </p>
 
     <p>The net effect of these changes have caused major headaches for small business owners who do not keep their websites maintained. Why? Well, as a small business web design and development consultant for many years, it has been my experience that the mindset of small business owners is such that they do NOT view their website as something that needs continual investment. They view it as a static asset; that is, “just build me a website and it’ll run forever.” This mistaken assumption can prove to be very costly.</p>
-    <p>For example, many business owners have contacted me because they've experienced disruption in sales due to Wordpress extensions being so outdated that they become unstable. They incorrectly assume that once the Wordpress site is up and running, no other action is needed.</p>
+    <p>For example, many business owners have contacted us because they've experienced disruption in sales due to Wordpress extensions being so outdated that they become unstable. They incorrectly assume that once the Wordpress site is up and running, no other action is needed.</p>
 
     <p>In the case of Google Maps, both the removal of keyless API usage and the requirement of a Google Cloud billing account means that if you used the Google Maps ecosystem a few years ago but didn’t make any updates to your account and the code that utilizes these changes, your site won’t work properly.</p>
 
@@ -153,7 +153,17 @@
 
     <h3 class="text-center">Adding Google Maps to your Website Using Google Maps APIs</h3>
 
-    <p>After you've decided which APIs will work best for your restaurant or small business, its time to get to work. This section will be split up into 2 sections - Wordpress users, and non-Wordpress users. Rather than go through each step one-by-one, links to videos are provided below to help you get started.</p>
+    <p>After you've decided which APIs will work best for your restaurant or small business, its time to get to work. This section will be split up into 2 sections - Wordpress users, and non-Wordpress users. </p>
+    
+    <p>However, regardless of whether you have a Wordpress&reg; website or not, there are 4 basic steps that need to be followed to integrate Google Maps API(s) into your website:</p>
+    <ol>
+      <li>Go to the <a href="https://console.developers.google.com/" target="_blank">Google Developers Console</a> to sign up for billing, and specify an app or project that will use the API/APIs</li>
+      <li>Pick the API/APIs needed for your project.</li>
+      <li>Obtain an API key for your project</li>
+      <li>Integrate the Google Maps code into Wordpress&reg; or your Website</li>
+    </ol>
+    
+    <p>Rather than attempt to describe each step one-by-one in detail, links to videos are provided below to help you get started.</p>
 
     <p class="quote-offset">
       <span>
@@ -166,13 +176,12 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-10 offset-1">
+        <div class="embed-responsive embed-responsive-16by9">
           <iframe
-            width="560"
-            height="315"
             src="https://www.youtube.com/embed/PKdu_Y0xaIg"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            class="embed-responsive-item"
             allowfullscreen
           ></iframe>
         </div>
@@ -182,13 +191,12 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-10 offset-1">
+        <div class="embed-responsive embed-responsive-16by9">
           <iframe
-            width="560"
-            height="315"
             src="https://www.youtube.com/embed/9CY0V0JAgNU"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            class="embed-responsive-item"
             allowfullscreen
           ></iframe>
         </div>
@@ -198,15 +206,18 @@
     <h3 class="text-center">In Conclusion</h3>
 
     <p>
-      We hope you found the preceeding information useful. As a final consideration, ask yourself ...
-      <em>"would my time be best spent designing a website and fixing errors, or building up my restaurant or small business?"</em>
+      We hope you found the preceeding information useful. As a final consideration, remember that as a restaurateur / small business owner, your time is extremely limited and very valuable. </p>
+      <p>
+      So, 
+      ask yourself ...
+      <em>"would my time be best spent designing a website and fixing errors, or investing that time to make my restaurant or small business more profitable?"</em>
     </p>
 
     <p>The point here, is that we often advise small business owners who are NOT tech savvy to simply stick to what they're good at.</p>
     <p>
-      If the information provided in this post seems too much to take on yourself, it is best to outsource the work to a skilled web designer / developer who understands what is needed and can get you up and running quickly. At
+      If the steps outlined above seem too much to take on yourself, it is best to outsource the work to a skilled Web Designer &amp; Developer (or better yet, a team of Web Designers &amp; Developers) that understands what is needed and can get you up and running quickly. At
       <a
-        href="//mainavenuedesign.com/"
+        href="http://mainavenuedesign.com/" target="_blank"
       >Main Avenue Design co.</a> , we've been helping restaurants and small businesses with problems like this since 2011.
     </p>
     <p>If you need us, we're here for you.</p>
@@ -287,7 +298,7 @@ li {
     margin-top: 10px;
   }
 
-  p {
+  p, li {
     font-size: 0.95rem;
   }
 

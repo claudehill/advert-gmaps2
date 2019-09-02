@@ -23,9 +23,6 @@ import ContactFormFail from "@/components/ContactFormFail.vue"
 
 export default {
   name: "contact-us",
-  // data: {
-  //   title: "Page Title"
-  // },
   components: {
     ContactForm,
     SubscribeForm,
@@ -57,7 +54,7 @@ export default {
   background: url("../assets/img/dev_contact1b.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: center center;
   min-height: 800px;
 }
 </style>

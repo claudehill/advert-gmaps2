@@ -1,7 +1,9 @@
 <template>
   <div class="component-wrapper">
     <div class="card text-center">
-      <img src="../assets/img/code-1.jpg" alt class="card-img-top" />
+      <a href="http://mainavenuedesign.com/" target="_blank">
+        <img src="../assets/img/code-1.jpg" alt class="card-img-top" />    
+      </a>
       <div class="card-body">
         <h5 class="card-title text-center">Yes, we speak code.</h5>
         <p

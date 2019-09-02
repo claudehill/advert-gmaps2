@@ -19,11 +19,6 @@ a:hover {
 } */
 
 
-
-.cover-container {
-  max-width: 50%;
-}
-
 .cover-heading,
 .lead-light {
   color: #fff;
@@ -84,7 +79,7 @@ a:hover {
  */
 .cover {
   padding: 0 1.5rem;
-  margin-top: 15%;
+  margin-top: 5%;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;

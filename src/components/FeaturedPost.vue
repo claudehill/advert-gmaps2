@@ -2,8 +2,9 @@
   <div class="container">
     <h3 class="text-center my-4 promo">Productivity Tips &amp; Tools</h3>
     <p
-      class="my-3 text-center"
-    >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam accusamus nemo id rem obcaecati soluta.</p>
+      class="my-3 pb-3 text-center"
+      id="tips"
+    >Check out these tips, tools &amp; techniques that can help your small business better engage with your customer base and enhance customer &amp; brand loyalty.</p>
     <div class="row mb-2">
       <div class="col-md-12">
         <div
@@ -105,5 +106,10 @@ h4 {
 h4,
 h4 a {
   color: #17a2b8;
+}
+#tips {
+  display: block;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 </style>

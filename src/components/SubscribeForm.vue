@@ -1,15 +1,17 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col col-md-6 offset-3 col-sm-12 text-center">
-        <h1 class="text-white ">{{ title }}</h1>
-        <p>We've got more to share!<br>
-        Sign up here to get the latest.</p>
+      <div class="col col-md-12 text-center">
+        <h1 class="text-white">{{ title }}</h1>
+        <p>
+          We've got more to share!
+          <br />Sign up here to get the latest.
+        </p>
       </div>
     </div>
 
     <div class="row">
-      <div class="col col-md-8 offset-2 col-sm-12">
+      <div class="col col-lg-8 offset-lg-2 col-md-12">
         <div class="form-wrapper">
           <div id="mc_embed_signup">
             <form
@@ -50,9 +52,10 @@
                   </div>
                 </div>
 
-                <div class="mc-field-group input-group">
+                <div class="mc-field-group">
                   <!-- <strong>Would you like a FREE Website Quote?</strong> -->
-                  <p class="text-center">Would you like a FREE Website Quote?</p>
+                  <p class="text-center">Would you like a <strong>FREE</strong> Website Quote?</p>
+
                   <ul>
                     <li>
                       <div class="form-check form-check-inline">
@@ -61,7 +64,7 @@
                           value="1"
                           name="group[3903][1]"
                           id="mce-group[3903]-3903-0"
-                          class="form-check-input"
+                          class="form-check-input form-control-lg form-control-custom"
                         />
                         <label
                           for="mce-group[3903]-3903-0"
@@ -125,6 +128,13 @@ span.input-group-text {
   color: #cecece;
 }
 
+
+
+.form-control-custom {
+  transform: scale(2);
+  margin: 1.5rem;
+}
+
 p,
 label,
 strong,
@@ -159,13 +169,13 @@ p {
 }
 
 #mc-embedded-subscribe {
-    border: 2px solid #17a2b8;
-    background-color: transparent;
+  border: 2px solid #17a2b8;
+  background-color: transparent;
 }
 
 #mc-embedded-subscribe:hover {
-    background-color: #17a2b8;
-    color: #fff;
+  background-color: #17a2b8;
+  color: #fff;
 }
 
 .indicates-required,
@@ -173,4 +183,42 @@ p {
   color: orange;
 }
 
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+  button,
+  input[type="submit"] {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    button,
+  input[type="submit"] {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+  }
+}
+@media (max-width: 991px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
 </style>
