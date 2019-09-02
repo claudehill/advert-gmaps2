@@ -83,7 +83,7 @@ a.white-text {
   background: url("../assets/img/dev_revenue1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 800px;
+  min-height: 1000px;
 }
 
 /* Extra small devices (portrait phones, less than 576px)
