@@ -95,11 +95,6 @@
   border-radius: 50%;
 }
 
-/* h3.blog-header-font {
-  display: block;
-  margin-left:auto;
-  margin-right:auto;
-} */
 
 /* Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap */
