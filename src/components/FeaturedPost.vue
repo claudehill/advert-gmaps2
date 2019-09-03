@@ -60,10 +60,9 @@
                 Status: Pending
               </span>
             </div>
-            <p
-              class="card-text mb-auto"
-            >
-            Our content creators are still working on researching and writing this article.  <router-link to="/subscribe">Sign up for our newsletter</router-link>  and we'll let you know as soon as it's ready.
+            <p class="card-text mb-auto">
+              Our content creators are still working on researching and writing this article.
+              <router-link to="/subscribe">Sign up for our newsletter</router-link>and we'll let you know as soon as it's ready.
             </p>
           </div>
           <div class="col-auto d-none d-lg-block">
@@ -111,5 +110,38 @@ h4 a {
   display: block;
   margin-left: 4rem;
   margin-right: 4rem;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+  #tips {
+    display: block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  #tips,
+  .card-text {
+    font-size: 0.95rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+@media (max-width: 991px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
 </style>

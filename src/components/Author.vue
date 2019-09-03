@@ -1,8 +1,4 @@
 <template>
-  <!-- <div>
-<h3>Author Component</h3>
-<p>This should have a rectangle with a circular image w/ author info.</p>
-  </div>-->
   <div class="card my-4">
     <div class="card-body">
       <div class="row">
@@ -11,7 +7,7 @@
         </div>
 
         <div class="author-info col-md-9">
-         <span class="posted">Posted: </span>January 1, 2099  <br>
+         <span class="posted">Posted: </span>September 2, 2019  <br>
          <hr class="dark">
           By: <a href="#">Edwin C.</a> <br>
           <em>Director, Small Business Outreach</em>  <br> 

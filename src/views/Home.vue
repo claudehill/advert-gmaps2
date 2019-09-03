@@ -29,7 +29,7 @@
       <main role="main" class="container">
         <div class="row">
           <div class="col-md-12 col-lg-8 blog-main">
-            <h3 class="pb-2 mb-4 border-bottom dark-grey blog-header-font" style="font-size:2rem;">
+            <h3 class="pb-2 mb-4 border-bottom dark-grey blog-header-font" style="font-size:2rem;" id="lead-in">
               <span class>
                 <i class="fa fa-microphone teal"></i>
               </span> From our Design Team...
@@ -112,6 +112,9 @@ No media query since this is the default in Bootstrap */
 @media (min-width: 768px) {
 }
 @media (max-width: 767px) {
+  #lead-in {
+    display:none;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */

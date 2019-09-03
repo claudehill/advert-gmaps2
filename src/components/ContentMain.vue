@@ -43,7 +43,7 @@
       <p>After a few minutes of glancing at the menu to see what I might like, I was convinced - I had to check this place out. So, I navigated to the “Contact Us” Page. However, when I tried clicking the map to get driving directions, I was quickly met with the error “This page cannot display Google maps,” followed by a “for Development purposes only” watermark over the map, preventing me from panning, zooming or getting directions from my location.</p>
 
       <div class="img-container text-center pb-4">
-        <img src="../assets/img/gmap_error.png" alt srcset />
+        <img src="../assets/img/gmap_error.png" alt="Google Maps error" srcset class="img-fluid" />
         <small>Google and the Google logo are registered trademarks of Google LLC, used with permission.</small>
       </div>
 
@@ -63,6 +63,37 @@
       >evidence continues to mount that we are heading into a deep recession</a>, the competition for your client base will continue to grow. Having clear directions to your restaurant or business, coupled with a good marketing strategy that fosters both loyalty and growth will help you remain profitable in any economic climate.
     </p>
 
+
+    <div class="bnr bnr-sm">
+      <iframe
+        name="banner"
+        src="https://affiliategroove.com/scripts/banner.php?a_aid=5d5e8ede639c1&amp;a_bid=e359f124&amp;w=1"
+        framespacing="0"
+        frameborder="no"
+        scrolling="no"
+        width="125"
+        height="125"
+        allowtransparency="true"
+      >
+        <a
+          href="https://www.ipvanish.com/?a_aid=5d5e8ede639c1&amp;a_bid=e359f124"
+          target="_top"
+        >Take Online Security Seriously!</a>
+      </iframe>
+    </div>
+
+    <div class="bnr bnr-lg">
+      <iframe
+        src="//a.impactradius-go.com/gen-ad-code/1881477/487331/5618/"
+        width="300"
+        height="250"
+        scrolling="no"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+      ></iframe>
+    </div>
+
     <h3 class="text-center">Why You're Seeing This Google Maps Error on your Small Business Website</h3>
     <p>
       On June 22, 2016,
@@ -81,23 +112,6 @@
 
     <p>In the case of Google Maps, both the removal of keyless API usage and the requirement of a Google Cloud billing account means that if you used the Google Maps ecosystem a few years ago but didn’t make any updates to your account and the code that utilizes these changes, your site won’t work properly.</p>
 
-    <div id="ipv-1-469x60" class="bnr-wide">
-      <iframe
-        name="banner"
-        src="https://affiliategroove.com/scripts/banner.php?a_aid=5d5e8ede639c1&amp;a_bid=3bed6813&amp;w=1"
-        framespacing="0"
-        frameborder="no"
-        scrolling="no"
-        width="468"
-        height="60"
-        allowtransparency="true"
-      >
-        <a
-          href="https://www.ipvanish.com/check-my-privacy.php/?a_aid=5d5e8ede639c1&amp;a_bid=3bed6813"
-          target="_top"
-        >Take Online Security Seriously</a>
-      </iframe>
-    </div>
 
     <h3 class="text-center">
       A Little Background Info ...
@@ -107,6 +121,42 @@
     <p>As long as the calling system requests the data in the right way, the system providing the data will continue to send the data that was requested. Problems arise, however, when the system supplying the data changes the rules (called parameters) of how to obtain the data.</p>
 
     <p>In 2016, when Google began requiring an API key to access Google Maps, this was actually an additional, mandatory parameter that was required to obtain the data - i.e., the map and/or driving directions to your place of business. Without it, the previous request became invalid, thus resulting in an error on your website without this parameter.</p>
+
+    <div class="bnr bnr-sm">
+      <iframe
+        name="banner"
+        src="https://affiliategroove.com/scripts/banner.php?a_aid=5d5e8ede639c1&amp;a_bid=55b55150&amp;w=1"
+        framespacing="0"
+        frameborder="no"
+        scrolling="no"
+        width="125"
+        height="125"
+        allowtransparency="true"
+      >
+        <a
+          href="https://www.ipvanish.com/best-vpn-for-travel/?a_aid=5d5e8ede639c1&amp;a_bid=55b55150"
+          target="_top"
+        >Travel</a>
+      </iframe>
+    </div>
+
+    <div class="bnr bnr-lg">
+      <iframe
+        name="banner"
+        src="https://affiliategroove.com/scripts/banner.php?a_aid=5d5e8ede639c1&amp;a_bid=0729b721&amp;w=1"
+        framespacing="0"
+        frameborder="no"
+        scrolling="no"
+        width="300"
+        height="250"
+        allowtransparency="true"
+      >
+        <a
+          href="https://www.ipvanish.com/vpn-encryption/?a_aid=5d5e8ede639c1&amp;a_bid=0729b721"
+          target="_top"
+        >VPN for Public Wifi</a>
+      </iframe>
+    </div>
 
     <h3 class="text-center">Why Do I Need an API Key?</h3>
 
@@ -128,6 +178,30 @@
     <p>To see a live demo of Google Maps, click the button and accept permissions to see your location. The map will show your global coordinates in real-time by calling the Google Maps API.</p>
 
     <MapDemo />
+
+    <div class="bnr bnr-lg">
+      <iframe
+        src="//a.impactradius-go.com/gen-ad-code/1881477/386447/5618/"
+        width="300"
+        height="250"
+        scrolling="no"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+      ></iframe>
+    </div>
+
+    <div class="bnr bnr-sm">
+      <iframe
+        src="//a.impactradius-go.com/gen-ad-code/1881477/386494/5618/"
+        width="120"
+        height="60"
+        scrolling="no"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+      ></iframe>
+    </div>
 
     <h3 class="text-center">Deciding which Google Maps APIs are Required for your Small Business</h3>
 
@@ -153,16 +227,22 @@
 
     <h3 class="text-center">Adding Google Maps to your Website Using Google Maps APIs</h3>
 
-    <p>After you've decided which APIs will work best for your restaurant or small business, its time to get to work. This section will be split up into 2 sections - Wordpress users, and non-Wordpress users. </p>
-    
+    <p>After you've decided which APIs will work best for your restaurant or small business, its time to get to work. This section will be split up into 2 sections - Wordpress users, and non-Wordpress users.</p>
+
     <p>However, regardless of whether you have a Wordpress&reg; website or not, there are 4 basic steps that need to be followed to integrate Google Maps API(s) into your website:</p>
     <ol>
-      <li>Go to the <a href="https://console.developers.google.com/" target="_blank">Google Developers Console</a> to sign up for billing, and specify an app or project that will use the API/APIs</li>
+      <li>
+        Go to the
+        <a
+          href="https://console.developers.google.com/"
+          target="_blank"
+        >Google Developers Console</a> to sign up for billing, and specify an app or project that will use the API/APIs
+      </li>
       <li>Pick the API/APIs needed for your project.</li>
       <li>Obtain an API key for your project</li>
       <li>Integrate the Google Maps code into Wordpress&reg; or your Website</li>
     </ol>
-    
+
     <p>Rather than attempt to describe each step one-by-one in detail, links to videos are provided below to help you get started.</p>
 
     <p class="quote-offset">
@@ -205,10 +285,9 @@
 
     <h3 class="text-center">In Conclusion</h3>
 
+    <p>We hope you found the preceeding information useful. As a final consideration, remember that as a restaurateur / small business owner, your time is extremely limited and very valuable.</p>
     <p>
-      We hope you found the preceeding information useful. As a final consideration, remember that as a restaurateur / small business owner, your time is extremely limited and very valuable. </p>
-      <p>
-      So, 
+      So,
       ask yourself ...
       <em>"would my time be best spent designing a website and fixing errors, or investing that time to make my restaurant or small business more profitable?"</em>
     </p>
@@ -217,7 +296,8 @@
     <p>
       If the steps outlined above seem too much to take on yourself, it is best to outsource the work to a skilled Web Designer &amp; Developer (or better yet, a team of Web Designers &amp; Developers) that understands what is needed and can get you up and running quickly. At
       <a
-        href="http://mainavenuedesign.com/" target="_blank"
+        href="http://mainavenuedesign.com/"
+        target="_blank"
       >Main Avenue Design co.</a> , we've been helping restaurants and small businesses with problems like this since 2011.
     </p>
     <p>If you need us, we're here for you.</p>
@@ -281,13 +361,35 @@ li {
   margin-bottom: 1rem;
 }
 
-.bnr-wide iframe {
+.bnr iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) {
+  .bnr-lg iframe {
+    display: none;
+  }
+  .bnr-sm iframe {
+    display: block;
+  }
+}
+
+@media (min-width: 575px) {
+  .bnr-lg iframe {
+    display: block;
+  }
+  .bnr-sm iframe {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
+  h3 {
+    font-size: 1.6rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -298,7 +400,8 @@ li {
     margin-top: 10px;
   }
 
-  p, li {
+  p,
+  li {
     font-size: 0.95rem;
   }
 
