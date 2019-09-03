@@ -82,11 +82,6 @@
   background-color: #17a2b8;
 }
 
-/*
-
-    color: #17a2b8;
-    border-color: #17a2b8;.blue
-*/
 
 .btn-round {
   width: 60px;
