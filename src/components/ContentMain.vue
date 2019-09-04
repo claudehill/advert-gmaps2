@@ -64,7 +64,7 @@
     </p>
 
 
-    <div class="bnr bnr-sm">
+    <!-- <div class="bnr bnr-sm">
       <iframe
         name="banner"
         src="https://affiliategroove.com/scripts/banner.php?a_aid=5d5e8ede639c1&amp;a_bid=e359f124&amp;w=1"
@@ -80,7 +80,7 @@
           target="_top"
         >Take Online Security Seriously!</a>
       </iframe>
-    </div>
+    </div> -->
 
     <div class="bnr bnr-lg">
       <iframe
@@ -122,7 +122,7 @@
 
     <p>In 2016, when Google began requiring an API key to access Google Maps, this was actually an additional, mandatory parameter that was required to obtain the data - i.e., the map and/or driving directions to your place of business. Without it, the previous request became invalid, thus resulting in an error on your website without this parameter.</p>
 
-    <div class="bnr bnr-sm">
+    <!-- <div class="bnr bnr-sm">
       <iframe
         name="banner"
         src="https://affiliategroove.com/scripts/banner.php?a_aid=5d5e8ede639c1&amp;a_bid=55b55150&amp;w=1"
@@ -138,9 +138,9 @@
           target="_top"
         >Travel</a>
       </iframe>
-    </div>
+    </div> -->
 
-    <div class="bnr bnr-lg">
+    <!-- <div class="bnr bnr-lg">
       <iframe
         name="banner"
         src="https://affiliategroove.com/scripts/banner.php?a_aid=5d5e8ede639c1&amp;a_bid=0729b721&amp;w=1"
@@ -156,7 +156,7 @@
           target="_top"
         >VPN for Public Wifi</a>
       </iframe>
-    </div>
+    </div> -->
 
     <h3 class="text-center">Why Do I Need an API Key?</h3>
 

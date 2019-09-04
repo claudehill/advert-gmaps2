@@ -40,7 +40,7 @@
         </iframe> -->
 
 
-<iframe name='banner' src='https://www.affiliategroove.com/scripts/banner.php?a_aid=5d5e8ede639c1&amp;a_bid=e5c240ae&amp;w=1' framespacing='0' frameborder='no' scrolling='no' width='160' height='600' allowtransparency='true'><a href='https://www.ipvanish.com/check-my-privacy.php/?a_aid=5d5e8ede639c1&amp;a_bid=e5c240ae' target='_top'>Take Online Security Seriously</a></iframe>
+<!-- <iframe name='banner' src='https://www.affiliategroove.com/scripts/banner.php?a_aid=5d5e8ede639c1&amp;a_bid=e5c240ae&amp;w=1' framespacing='0' frameborder='no' scrolling='no' width='160' height='600' allowtransparency='true'><a href='https://www.ipvanish.com/check-my-privacy.php/?a_aid=5d5e8ede639c1&amp;a_bid=e5c240ae' target='_top'>Take Online Security Seriously</a></iframe> -->
 
 
 
